@@ -1,0 +1,11 @@
+Package: zelig.book.builder
+Version: 0.1
+Date: 2011-03-10
+Title: Zelig Book Builder
+Author: Matt Owen
+Maintainer: Matt Owen <mowen@iq.harvard.edu>
+Depends: Zelig 
+Description: A Zelig Model
+License: GPL (>=2)
+URL: http://gking.harvard.edu/zelig
+Packaged: Thu Mar 10 15:35:38 2011

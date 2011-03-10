@@ -1,0 +1,26 @@
+{Introduction}
+cover
+intro
+
+
+{User's Guide}
+install
+syntax
+Zcommands
+graphs
+
+
+{Zelig Commands}
+zelig
+setx
+sim
+summary
+plot.zelig
+print
+repl
+
+
+{Advanced Zelig Uses}
+robjects
+programming_statements
+adding_models

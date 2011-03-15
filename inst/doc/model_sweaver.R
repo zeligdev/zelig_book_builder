@@ -1,59 +1,99 @@
-library(Zelig)
+library(zelig.book.builder)
 
-# @model: name of the zelig model
-# @package: name of the zelig package
-find.ref.file <- function(model, package) {
-  rnw.file <- system.file('doc', paste(model, 'Rnw', sep='.'), package=package)
-  tex.file <- system.file('doc', paste(model, 'tex', sep='.'), package=package)
 
-  if (file.exists(rnw.file)) {
-    rnw.file
-  }
-  else if (file.exists(tex.file)) {
-    tex.file
-  }
-  else {
-    NULL
-  }
-}
+# get commandline arguments
+args <- commandArgs(trailingOnly = TRUE)
 
 
 # initialize variables
-folder <- "temporary.folder"
+
+# file output (commandline based)
+folder <- args[1]
+conf <- ifelse(is.na(args[2]), "order.conf", args[2])
+
 suppressMessages(models <- list.zelig.models())
 savedwd <- getwd()
-
-message("working in directory: ", savedwd)
-
-## if (file.exists(folder))
-##   stop()
-
-#dir.create(folder)
+legit.models <- c()
 
 
-# setup working environment
-#setwd(folder)
+# .....
+message("** Working in directory: ", savedwd)
 
 
+# Go through the list of models, and do one of:
+#  * Sweave the document, then move into 'folder' (if Rnw)
+#  * Copy document into folder (if TeX)
+#  * Ignore (if neither)
 for (mod in names(models)) {
   pkg <- models[[mod]]
 
   fi <- find.ref.file(mod, pkg)
 
   if (is.null(fi)) {
-    #xwarning(mod, " is not found. skipping.")
+    #
+    # ** Skipping
+    #
+    message()
+    message("** Skipping `", fi, "'. Cannot find Rnw/TeX file")
+    message()
     next
   }
 
   # write file
-  if (!is.null(grep('\\.Rnw', fi))) {
-    message('printing to "', fi, '"')
-    suppressMessages(Sweave(fi))
+  if (!is.null(grep('\\.Rnw$', fi))) {
+    # 
+    # ** Printing to ...
+    #
     message()
+    message("** Printing to '", fi, "'")
+    message()
+
+    # sweave the file
+    suppressMessages(Sweave(fi))
+
+    filename <- paste(mod, "tex", sep=".")
+
+    #
+    # ** Moving ...
+    #
+    message()
+    message("** Moving '", filename, "' into '", folder, "'")
+    message()
+
+    # rename file
+    success <- file.rename(filename, file.path(folder, filename))
+
+    # adding space
     message()
   }
+
+  else if (!is.null(grep('\\.tex$', fi))) {
+    filename <- paste(mod, 'tex', sep=".")
+    filename <- file.path(folder, filename)
+
+    #
+    # ** Copying ...
+    #
+    message()
+    message("** Copying '", fi, "' into '", filename, "'")
+    message()
+
+    # copying file
+    success <- file.copy(fi, filename)
+
+    # ..
+  }
+
+  if (success)
+    legit.models <- c(legit.models, mod)
 }
 
 
-#warnings()
-#setwd(savedwd)
+# write to conf file
+message("\n\n\n")
+message("** Writing models to '", conf, "'")
+writeLines(legit.models, con = conf)
+
+
+message()
+message('Done.')

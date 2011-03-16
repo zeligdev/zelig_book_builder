@@ -5,9 +5,19 @@
 #' param to a character-string specifying the destination directory
 #' param dir a character-string specifying the source directory
 #' value a logical vector specifying all the results
-copy.bib.files <- function(pkg = NULL, to ='.', dir="doc") {
-  copy.files(
-             find.bib.files(dir = dir, pkg = pkg),
-             to = to
-             )
+copy.files <- function(files, to ='.') {
+
+  results <- c()
+
+  for (source in files) {
+    # construct destination file name
+    dest <- file.path(to, basename(source))
+    
+    # attempt to copy file, then save result
+    results[basename(source)] <- file.copy(source, dest)
+  }
+
+  # return
+  results
 }
+

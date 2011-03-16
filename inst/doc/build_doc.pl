@@ -55,8 +55,6 @@ INFO
 
 
 
-
-
 # FILE HANDLES
 # ************
 
@@ -81,6 +79,7 @@ my $doc = undef;
 $tmp_dir = $book->get_temp_dir();
 
 for my $line (<CONF>) {
+  #
   chomp $line;
 
   # if it is a part
@@ -101,7 +100,7 @@ for my $line (<CONF>) {
   }
 
   # chapter without title explicityly set
-  elsif ($line =~ m/^\w+$/) {
+  elsif ($line =~ m/^[\w\\.]+$/) {
     $doc = new Doc(file => "$dir/$line");
     $chapter = new Chapter("$dir/$line", $doc->get_title());
     $part->add_chapters("$dir/$line" => $chapter);
@@ -116,10 +115,6 @@ $book->add_parts($part);
 
 # setup build environment
 $book->setup_env();
-
-
-
-
 $book->write_book(to_file => 1);
 
 

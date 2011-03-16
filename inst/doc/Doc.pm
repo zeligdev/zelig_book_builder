@@ -117,6 +117,60 @@ sub get_dir {
   $self->{_dir};
 }
 
+=item get_includegraphics()
+
+  return: get all the included graphics
+
+=cut
+sub get_included_graphics {
+
+  my ($self) = @_;
+
+  my $file = $self->get_fullpath();
+
+  open FI, "<$file" or die();
+
+  #my $slash = $/;
+  #$/ = \0;
+
+  my @files = <FI> =~ m/\\includegraphics{(?:.*)}/gs;
+  #$string =~ s/^\s+//;
+  #$string =~ s/\s+$//;
+
+  # trim whitespace
+  @graphics = map {  
+    $_ =~ s/^\s+//;
+    $_ =~ s/\s+$//;
+    $_
+  } @files;
+
+  @graphics;
+}
+
+
+=item link()
+
+  link
+  return:
+
+=cut
+sub copy_links {
+
+  my ($self, $to) = @_;
+  my @includes = $self->get_included_graphics();
+  my $file = $self->get_full_path();
+
+
+  # symbolic link included files
+  for (@includes) {
+    my $base = basename($_);
+    symlink $_, "$to/$base";
+  }
+
+  # symlink actual file
+  symlink $file, "$to/" . basename($file);
+}
+
 
 =item get_packages()
 
@@ -567,17 +621,11 @@ use File::Basename qw/ basename dirname /;
 sub new {
   my ($class, $file_name, $chapter_name, $short_name) = @_;
 
- 
-
   $filename = File::Basename::basename($file_name, ".tex");
   $basename = File::Basename::dirname($file_name);
 
-  my $rawr;
-
-
   $chapter_name =~ m/(.*?):.*/;
   $short_name = ucfirst lc $1;
-
 
   my $self = {
     _file_name => $filename,
@@ -615,9 +663,10 @@ sub print_as_include {
   my ($file_name) = $doc->get_abs_path();
 
   $dest = File::Spec->rel2abs($dest);
-  print " > ", dirname $dest, "\n\n";
+  #print " > ", dirname $dest, "\n\n";
 
   $file_name = File::Spec->abs2rel($file_name, dirname $dest);
+  $file_name = basename($file_name);
   ($file_name) = $file_name =~ m/(.*)\.tex$/;
 
   print $handle q/\chapter/;

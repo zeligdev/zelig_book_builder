@@ -28,6 +28,7 @@ for (mod in names(models)) {
   pkg <- models[[mod]]
 
   fi <- find.ref.file(mod, pkg)
+  print(fi)
 
   if (is.null(fi)) {
     #

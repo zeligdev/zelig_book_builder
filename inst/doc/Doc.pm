@@ -123,19 +123,15 @@ sub get_dir {
 
 =cut
 sub get_included_graphics {
-
   my ($self) = @_;
-
   my $file = $self->get_fullpath();
 
   open FI, "<$file" or die();
 
-  #my $slash = $/;
-  #$/ = \0;
+  my $slash = $/;
+  $/ = \0;
 
-  my @files = <FI> =~ m/\\includegraphics{(?:.*)}/gs;
-  #$string =~ s/^\s+//;
-  #$string =~ s/\s+$//;
+  my @files = <FI> =~ m/\\includegraphics\{(.*)\}/g;
 
   # trim whitespace
   @graphics = map {  
@@ -143,6 +139,8 @@ sub get_included_graphics {
     $_ =~ s/\s+$//;
     $_
   } @files;
+
+  $/ = $slash;
 
   @graphics;
 }
@@ -158,17 +156,22 @@ sub copy_links {
 
   my ($self, $to) = @_;
   my @includes = $self->get_included_graphics();
-  my $file = $self->get_full_path();
+  my $file = $self->get_fullpath();
 
 
   # symbolic link included files
   for (@includes) {
-    my $base = basename($_);
-    symlink $_, "$to/$base";
+    for my $file_name (DocTools::list_graphics($_)) {
+      DocTools::link_to($file_name, $to);
+    }
   }
 
+  my $dots = File::Spec->catdir( ('..') x DocTools::path_length($to));
+  my $end_file = File::Spec->catfile($dots, $file);
+
   # symlink actual file
-  symlink $file, "$to/" . basename($file);
+  #symlink $end_file, File::Spec->catfile($to, basename($file));
+  #"$to/" . basename($file);
 }
 
 
@@ -212,20 +215,33 @@ sub get_body {
   my ($self, %params) = @_;
 
   my $slash = \0;
+  my $body;
   ($/, $slash) = ($slash, $/);
 
   open FI, "<" . $self->get_fullpath()
     or die("could not open Doc $self->{_file} file");
 
-  if (<FI> =~ m/\\begin{document}(.*?)\\end{document}/s) {
+
+  <FI> =~ m/\\begin{document}(.*?)\\end{document}/s;
+
+  if (length $1 == 0) {
+    # if the string is empty, then
+    # reopen file-handle
     close FI;
-    $/ = $slash;
-    return $1;
+    open FI, "<" . $self->get_fullpath()
+      or die("could not open Doc $self->{_file} file");
+    $body = <FI>;
   }
-  
-  $/ = $slash;
+  else {
+    # otherwise we got the correct value
+    $body = $1;
+  }
+
+
   close FI;
-  return <FI>;
+  $/ = $slash;
+
+  return DocTools::strip_bib($body);
 }
 
 =item get_bibstyle()
@@ -276,14 +292,15 @@ sub get_bibliographies {
  
   @bibs = <FI> =~ m/\\bibliography{(.*?)}/gs;
   @bibs = map { split /\s*,\s*/, $_ } @bibs;
+
    
   close FI;
 
   $/ = $slash;
+  return @bibs;
   my $result = pop @bibs;
   defined $result ? $result : "";
 }
-
 
 =item get_file_location()
 
@@ -312,19 +329,143 @@ sub get_title {
 
   my $slash = $/;
   $/ = \0;
-  my @titles = <FI> =~ m/\\title\{(.*?)}/g;
+  my @titles = <FI> =~ m/\\title\{(.*?)}/gs;
 
   $/ = $slash;
   close FI;
 
+
   my $result = pop @titles;
+
+  $result =~ s/\s+/ /g;
+  $result =~ s/^ +//g;
+  $result =~ s/ +$//g;
 
   defined $result ? $result : "";
 }
 
-
-
 package DocTools;
+
+use File::Basename qw/ basename dirname /;
+use File::Spec;
+use File::Path qw/ mkpath /;
+
+our @graphic_exts = ('eps', 'pdf', 'jpg', 'gif', 'png');
+our @doc_exts = ('tex');
+
+
+=item link_doc( FILE_NAME, TO )
+
+  param FILE_NAME: a character-string specifying a file
+  param TO: a character-string specifying the destination directory
+  return: under
+
+=cut
+sub copy_links {
+  my ($file, $to) = @_;
+  my $doc = new Doc(file => $file);
+
+  $to = "." unless defined $to;
+
+  print DocTools::path_length $to;
+
+  $doc->copy_links($to);
+
+  my $dots = File::Spec->catdir( ('..') x DocTools::path_length($to));
+  my $end_file = File::Spec->catfile($dots, $file);
+
+  symlink $end_file, File::Spec->catfile($to, basename($file));
+}
+
+=item path_length($dir)
+
+  ...
+
+=cut
+sub path_length {
+ scalar File::Spec->splitdir(shift);
+}
+
+sub find_graphic {
+  
+  my $name = shift;
+
+  for (@graphic_exts) {
+    my $file = "$name.$_";
+
+    return $file if -e $file;
+  }
+
+  undef;
+}
+
+sub list_graphics {
+
+  my $name = shift;
+  my @hits;
+
+  for (@graphic_exts) {
+    my $file = "$name.$_";
+    push @hits, $file if -e $file;
+  }
+  
+  @hits;
+}
+
+=item ...
+
+  waiting by the phone
+
+=cut
+sub link_to {
+
+  my ($target, $into) = @_;
+
+  my $base = basename $target;
+  my $dir = dirname $target;
+
+  my $path = File::Spec->catdir($into, $dir);
+  my $dest = File::Spec->catfile($path, $base);
+  my $diff = scalar File::Spec->splitdir($path);
+
+  mkpath $path;
+
+  $target = File::Spec->catdir( ('..') x $diff , $target);
+
+  symlink $target, $dest;
+}
+
+=item swap($left, $right)
+
+  switches the values of $left and $right
+
+=cut
+sub swap {
+  (${\$_[1]}, ${\$_[0]}) = @_;
+}
+
+
+=item blah()
+
+  lies
+
+=cut
+sub strip_bib {
+
+  my $text = shift;
+
+  # strip nobibliography commands
+  $text =~ s/\\nobibliography\*?\n?//g;
+
+  # strip bibliography specifications
+  $text =~ s/\\bibliography\{.*?\}//gs;
+
+  # strip bibliography style specifications,
+  # then return
+  $text =~ s/\\bibliographystyle\{.*?\}//gs;
+
+  $text;
+}
 
 # @_: list of arguments as an array
 # result - a list with unique entries
@@ -398,8 +539,8 @@ sub new {
 
 
   my $title = $params{title};
-  my $tmp_dir = tempdir("make_docs_XXXX");
-  my ($handle, $tmp_file) = tempfile("Zelig_XXXX", DIR => $tmp_dir);
+  my $tmp_dir = ""; #tempdir("make_docs_XXXX");
+  #my ($handle, $tmp_file) = tempfile("Zelig_XXXX", DIR => $tmp_dir);
 
   my $obj = {
              _file => $params{file},
@@ -413,8 +554,8 @@ sub new {
              #   this manages where hard links, etc.
              #   are located during the build process
              _temp_dir => $tmp_dir,
-             _temp_file => $tmp_file,
-             _temp_handle => $handle,
+             #_temp_file => $tmp_file,
+             #_temp_handle => $handle,
 
              # dependency management stuff
              _packages => [],
@@ -438,6 +579,12 @@ sub add_parts {
 
 }
 
+sub bibliographies {
+  my ($self, @bibs) = @_;
+  push @{$self->{_bibs}}, DocTools::uniq @bibs;
+  return @{$self->{_bibs}};
+}
+
 
 =item write_book(to_file => T/F)
 
@@ -453,7 +600,7 @@ sub write_book {
 
   open $handle, ">$self->{_file}";
 
-  @packages = $self->get_packages();
+  my @packages = DocTools::uniq @{$self->{_packages}};
 
   print $handle "\\documentclass{book}\n\n";
   print $handle "% packages\n";
@@ -465,9 +612,74 @@ sub write_book {
     $_->write($handle, $self->{_file})
   }
 
+  my $bib_string = join ",", @{$self->{_bibs}};
+  $bib_string = qq/\\bibliography{$bib_string}/;
+
+  print $handle "$bib_string\n";
+  print $handle q/\bibliographystyle{plain}/;
   print $handle q/\end{document}/;
 
   close $handle;
+
+  print $self->get_bibs();
+}
+
+=item 
+
+  ...
+
+=cut
+sub get_bibs {
+  my $self = shift;
+  my @bibs;
+
+  foreach ($self->list_docs()) {
+
+    push @bibs, $_->get_bibliographies();
+
+  }
+  print "=================\n";
+  print join "\n", @bibs;
+  print "----------------\n\n";
+  DocTools::uniq @bibs;
+}
+
+
+=item list_docs()
+
+  stick and move
+
+=cut
+sub list_docs {
+  my $self = shift;
+  my @docs;
+
+  for $part (@{$self->{_parts}}) {
+    for $chapter (values %{$part->{_chapters}}) {
+      my $doc = $chapter->as_doc();
+      push @docs, $doc;
+    }
+  }
+
+  @docs;
+}
+
+
+=item copy_includes($to_file)
+
+  
+
+=cut
+sub copy_includes {
+  my ($self, $to)  = @_;
+  my @docs = $self->list_docs();
+
+  $to = '.' unless defined $to;
+
+  for (@docs) {
+    $_->copy_links($to);
+  }
+
 }
 
 
@@ -477,9 +689,9 @@ sub write_book {
 
 =cut
 sub setup_env {
-  my $self = shift;
+  my ($self, $to) = @_;
 
-  my $tmp_dir = $self->{_temp_dir};
+  my $tmp_dir = $to;
   my $tmp_file = $self->{_temp_file};
 
   my @packages = ();
@@ -497,17 +709,33 @@ TEMP
     for my $chapter (values %{ $part->{_chapters} }) {
       my $doc = $chapter->as_doc();
 
+      print $doc->get_fullpath(), "\n";
+
       push @packages, @{[ $doc->get_packages() ]};
 
       $newfile = File::Spec->catfile($tmp_dir, $doc->get_file_name());
 
-      open FI, ">$newfile";
-      print FI $doc->get_body();
-      $doc->{_dir} = $tmp_dir;
+      print "> $newfile \n";
+
+      # have to store it in a local variable
+      # might be best done via a FILE handle
+      my $body = $doc->get_body();
+
+      $body = DocTools::strip_bib $body;
+
+      open FI, ">$newfile" or die "well that was a waste of time";
+      
+      print FI $body;
+      
+      #$doc->{_dir} = $tmp_dir;
+      
       close FI;
-      $chapter->{_dir_name} = $tmp_dir;
+
+      #$chapter->{_dir_name} = $tmp_dir;
     }
   }
+
+  $self->{_packages} = [ @packages ];
 }
 
 
@@ -700,5 +928,10 @@ our $chapter = qr/(.*?):(.*)/;
 # hard links
 our $link = qr/\[(.*?)\]/;
 
+our $bib = qr//;
+
+our $bibstyle = qr//;
+
+our $nobib = qr/\\nobibliography\*?/;
 
 1;

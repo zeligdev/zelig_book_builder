@@ -14,31 +14,3 @@ robjects: R Objects
 programmingstatements: Programming Statements
 newModels: Creating New Zelig Models
 addingModels: Adding Pre-existing Models to Zelig
-
-
-{Zelig Reference Manual}
-gamma
-logit
-ls
-negbinom
-normal
-poisson
-probit
-blogit
-bprobit
-gamma.mixed
-logit.mixed
-ls.mixed
-poisson.mixed
-probit.mixed
-ologit
-oprobit
-gamma.survey
-logit.survey
-normal.survey
-poisson.survey
-probit.survey
-
-{Appendix}
-faq: Frequently Asked Questions
-whatsnew: What's New?

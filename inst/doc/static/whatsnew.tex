@@ -1,11 +1,29 @@
 \section{What's New:  Zelig Release Notes}\label{release.notes}
 
+
 Releases listed as ``stable releases'' have been tested against prior
 versions of Zelig for consistency and accuracy.  Testing distributions
 may contain bugs, but are usually replaced by stable releases within a
 few days. 
 
 \begin{itemize}
+
+\item{4.0-3} (May 25, 2010): Testing Release for R 2.12
+
+Extensive changes including:
+
+	\begin{itemize}
+		\item Added Roxygen-compliant in-source documentation
+		\item {\tt demo(HelloWorld)} now produces an informative demo on creating a simple statistical package
+		\item Removed the approximately half the models from Zelig
+		\item Moved 22 models from the ``core'' package to more focused packages
+		\item Added 'zelig.skeleton' method for rapidly creating Zelig packages
+		\item Resolved error messages, warnings, and notes from R CMD check and R CMD build
+		\item Moved 500+ page Zelig documentation
+		\item Temporarily disabling bootstrapping from the {\tt sim} method
+		\item Temporarily removing {\tt Average Treatment Effects} from the generalized linear models
+	\end{itemize}
+
 \item{3.4-8} (Jan 1, 2010): Stable release for R 2.10
 
 Fixed problem with survival regressions and robust standard erros (assuming survival >= 2.35-8)\\

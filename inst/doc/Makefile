@@ -34,5 +34,6 @@ all:
 	perl Build_doc.pl dir=$(DIR1) ws=$(FINAL_DIR) conf=$(TOC) dest=$(DEST)	
 	mv $(DEST) $(FINAL_DIR)/.
 	cp .Makefile $(FINAL_DIR)/.Makefile
-	make -C $(FINAL_DIR) -f .Makefile
+	make -i -C $(FINAL_DIR) -f .Makefile
+	sh $(FINAL_DIR)/runthis.sh
 	cp $(FINAL_DIR)/$(DEST) ../.

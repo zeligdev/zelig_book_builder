@@ -1,0 +1,172 @@
+\documentclass[11pt]{article}
+\usepackage{ZeligDoc}
+\begin{document}
+
+% TITLE INFORMATION
+\title{Making the Model Compatible with Zelig: Writing the \emph{zelig2} Function}
+\author{Matthew Owen}
+\maketitle
+
+
+% INTRODUCTION
+\section{Introduction}
+Developers can develop a model, write the model-fitting function, and test it
+within the Zelig framework without explicit intervention from the Zelig team. 
+This modularity relies on two R programming conventions:
+
+
+\begin{enumerate}
+
+	\item {\bf wrappers}, which pass arguments from R functions to other R functions
+		or foreign function calls (such as in C, C++, or Fortran).  This step is
+		facilitated by - as will be explained in detail in the upcoming chapter -
+		the {\tt zelig2} function.
+		
+	\item {\bf classes}, which tell generic functions how to handle objects of a given
+		class.  For a statistical model to be compliant with Zelig, the model-fitting
+		function \emph{must} return a classed object.
+		
+\end{enumerate}
+
+Zelig implements a unique and simple method for incorporating existing statistical
+models which lets developers test \emph{within} the Zelig framework \emph{without} any
+modification of both their own code or the {\tt zelig} function itself.  The heart of
+this procedure is the {\tt zelig2} function, which acts as an interface between the
+{\tt zelig} function and the existing statistical model.  That is, the {\tt zelig2}
+function maps the user-input from the {\tt zelig} function into input for the existing
+statistical model's constructor function.  Specifically, a Zelig model requires:
+
+% !!
+%
+\begin{enumerate}
+
+	\item An existing statistical model, which is invoked through a function call and
+		returns an object
+
+	\item A {\tt zelig2} function which maps user-input from the {\tt zelig} function to
+		the existing statistical model
+		
+	\item A name for the {\tt \bf zelig} model, which can differ from the original name of
+		the statistical model.
+		
+\end{enumerate}
+
+
+% THE ZELIG2 FUNCTION
+\section{The \emph{zelig2} Function}
+The following sections explain how to write a {\tt zelig2} function, given an arbitrary
+statistical model.  In the illustrative examples, the following conventions are used:
+
+
+
+\begin{description}
+
+	\item[model] will refer to the name of the \emph{Zelig} model, not the name of the
+		existing model - though these two names are not necessarily different.  If the developer
+		names his model ``logit'' then model refers to ``logit''.
+
+	\item[model\_function] will refer to the name of function that produces the existing
+		statistical model.  If the developer is writing a wrapper for R's built-in logit function,
+		then \emph{model\_function} refers to ``glm''.
+		
+	\item[zelig2model] will refer to the name of the {\tt zelig2} function.  If the developer
+		names his model ``logit'', then \emph{zelig2model} refers to ``zelig2logit''.
+		
+\end{description}
+
+
+% WRITING THE ZELIG2 FUNCTION
+\subsection{Writing the \emph{zelig2} Function}
+
+The {\tt zelig2} function should follow several specific conventions:
+
+\begin{enumerate}
+
+	\item The {\tt zelig2model} function should be simply named \emph{zelig2model}, where
+		\emph{model} is the chosen name for the zelig package
+
+	\item The {\tt zelig2model} function itself should have arguments that list entirety of
+		possible inputs to the {\tt model\_function}
+
+	\item The {\tt zelig2model} function should return a list of key-value pairs that represent
+		the map from {\tt zelig} input to {\tt model\_function} input
+
+\end{enumerate}
+
+
+% EXAMPLE USING zelig2logit
+\pagebreak
+\subsection{Example of a \emph{zelig2} Function}
+
+\begin{verbatim}
+zelig2logit <- function(formula, ..., data, weights=NULL)
+  list(
+       .function = "glm",
+        
+       formula = formula,
+       data    = data,
+       weights = weights,
+        
+       family = binomial(link="logit"),
+       model  = FALSE
+       )
+\end{verbatim}
+
+
+% EXPLANATION
+\subsection{Explanation of \code{zelig2} Return Values}
+
+A {\tt zelig2model} function must always return a list as its return value.
+
+The entries of the returned list have the following format:
+
+\begin{description}
+
+	\item[\code{.function}] specifies, with a character string, {\tt model\_function} used to fit the data
+	
+	\item[key-value pairs] represent an explicit mapping specified by the developer for the
+		parameter that matches ``key''. Value are specified typically in one of two ways:
+
+		\begin{itemize}
+		
+			\item As a variable based on some information from the user. In the above example, this
+				corresponds to the \code{formula}, \code{data}, and \code{weights} keys in the returned
+				list. \emph{Note how all the parameters make use of variables specified in the function
+				signature}
+
+			\item As a variable that is statically set. This is useful for parameters that do not require
+				user-input. In the above example, this corresponds to the \code{family} and \code{model}
+				parameters, as their values are specified to specific values regardless of user-input.
+				\emph{Note how neither parameter make no use of the parameters in the function signature}
+						
+		\end{itemize}
+	
+	\item[an ellipsis (\dots)] specifies that all additional, optional parameters not specified in the signature of the \code{zelig2model\_function} method, will be included in the external method's call, despite not being specifically set.
+				
+	
+\end{description}
+
+
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,16 +1,20 @@
 {Introduction}
 intro: Introduction to Zelig
-
-
-{User's Guide}
 install: Installation
+
+
+{User's Guide: Basics}
 syntax: R Syntax
 Zcommands: Zelig Commands
 graphs: Graphing Commands
 
 
-{Advanced Zelig Uses}
+{User's Guide: Basic R Commands}
 robjects: R Objects
 programmingstatements: Programming Statements
-newModels: Creating New Zelig Models
-addingModels: Adding Pre-existing Models to Zelig
+
+
+{User's Guide: The Zelig API}
+zelig2: Interfacing External Methods with Zelig
+param: Simulating Parameters
+qi: Simulating Quantities of Interest

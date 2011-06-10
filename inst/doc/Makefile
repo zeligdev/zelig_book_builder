@@ -19,8 +19,8 @@ END = order/ending
 WD = $(shell `pwd`)
 
 all:
-	Rscript model_sweaver.R $(DIR1) $(CONF)
 	Rscript copy_and_process.R $(FINAL_DIR)
+	Rscript model_sweaver.R $(DIR1) $(CONF)
 	ln -f $(STATIC)/*.tex $(FINAL_DIR)/.
 	ln -f $(STATIC)/*.tex $(BUILD_DIR)/.
 	ln -f $(STATIC)/*.tex $(DIR1)/.

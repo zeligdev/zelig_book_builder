@@ -1,13 +1,3 @@
-\documentclass[10pt]{article}
-
-\usepackage{ZeligDoc}
-
-\begin{document}
-
-\title{Writing a \emph{qi} function}
-\author{Matthew Owen}
-\maketitle
-
 \section{Introduction}
 % Introduction Material
 
@@ -130,7 +120,7 @@ In order for Zelig to process the simulations, they must be returned in one of s
 
 \begin{itemize}
 	% First Example
-	\item{\begin{verbatim}
+	\item \begin{verbatim}
 		list(
 		     "TITLE OF QI 1" = val1,
 		     "TITLE OF QI 2" = val2,
@@ -138,15 +128,15 @@ In order for Zelig to process the simulations, they must be returned in one of s
 		     # ...
 		     "TITLE OF QI N" = val.n
 		     )
-	\end{verbatim}}
+	\end{verbatim}
 
 	% Second Example
-	\item{\begin{verbatim}
+	\item \begin{verbatim}
 		make.qi(
 		        titles = list(title1, title2),
 		        stats  = list(val1, val2)
 		        )
-	\end{verbatim}}
+	\end{verbatim}
 \end{itemize}
 
 
@@ -161,8 +151,6 @@ NOTE: Because of its readability, it is suggested that the first method is used 
 returning \emph{quantities of interest}.
 
 % break
-\pagebreak
-
 
 % find better way to output this data
 \section{Simple Example \code{qi} function (\code{qi.logit.R})}
@@ -185,7 +173,3 @@ qi.logit <- function(z, x=NULL, x1=NULL, y=NULL, num=1000, param=NULL) {
 }
 \end{verbatim}
 
-\pagebreak
-
-
-\end{document}

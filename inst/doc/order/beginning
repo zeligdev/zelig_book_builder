@@ -16,5 +16,5 @@ programmingstatements: Programming Statements
 
 {User's Guide: The Zelig API}
 zelig2: Interfacing External Methods with Zelig
-param: Simulating Parameters
+parameters: Generalizing Common Components of Fitted Statistical Models
 qi: Simulating Quantities of Interest

@@ -35,5 +35,4 @@ all:
 	mv $(DEST) $(FINAL_DIR)/.
 	cp .Makefile $(FINAL_DIR)/.Makefile
 	make -i -C $(FINAL_DIR) -f .Makefile
-	sh $(FINAL_DIR)/runthis.sh
 	cp $(FINAL_DIR)/$(DEST) ../.

@@ -1,0 +1,70 @@
+\documentclass{book}
+
+\usepackage{ZeligDoc}
+\usepackage{url}
+\usepackage{fancyvrb}
+
+\DefineVerbatimEnvironment{Code}{Verbatim}{
+  samepage=TRUE,
+  fontsize=\small
+}
+
+
+\title{Zelig Developers' Manual \code{v1.0}}
+
+\begin{document}
+
+% title
+\maketitle
+
+
+% make that toc, yo
+\tableofcontents
+
+
+% Quick Start Guide
+\chapter[Quick Start Guide]{Quick Start Guide to Making a Zelig Model}
+\label{chapter:quickstart}
+\input{Rapid-Development-Zelig}
+
+
+% sample chapter
+%  delete this chapter afterwards.
+%  This is kept for reference and not intended to be in
+%  the final book
+\chapter[sample]{Sample Chapter}
+\label{chapter:sample}
+\input{sample}
+
+
+% describe method
+\chapter[\code{describe}]{\code{describe}: Describing a Zelig Model}
+\label{chapter:describe}
+\input{describe}
+
+
+% zelig2 method
+\chapter[\code{zelig2}]{\code{The zelig2 Method API}}
+\label{chapter:zelig2}
+\input{zelig2}
+
+
+% param method
+\chapter[\code{param}]{\code{The param Method API}}
+\label{chapter:param}
+\input{parameters}
+
+
+% qi method
+\chapter[\code{qi}]{\code{The qi Method API}}
+\label{chapter:qi}
+\input{qi}
+
+
+% style guide
+\chapter[Zelig Style Guide]{Zelig Style Guide}
+\label{chapter:styleguide}
+\input{zelig_style_guide}
+
+
+\end{document}

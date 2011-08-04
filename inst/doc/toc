@@ -1,19 +1,24 @@
 {Introduction}
 intro: Introduction to Zelig
-
-
-{User's Guide}
 install: Installation
+
+
+{R Basics}
 syntax: R Syntax
 Zcommands: Zelig Commands
 graphs: Graphing Commands
 
 
-{Advanced Zelig Uses}
+{Basic R Commands}
 robjects: R Objects
 programmingstatements: Programming Statements
-newModels: Creating New Zelig Models
-addingModels: Adding Pre-existing Models to Zelig
+
+
+{The Zelig API}
+quickstart: Rapid Development Guide
+zelig2: Interfacing External Methods with Zelig
+parameters: Generalizing Common Components of Fitted Statistical Models
+qi: Simulating Quantities of Interest
 
 
 {Zelig Reference Manual}
@@ -26,11 +31,15 @@ poisson
 probit
 blogit
 bprobit
-gamma.mixed
-logit.mixed
-ls.mixed
-poisson.mixed
-probit.mixed
+logit.gam
+normal.gam
+poisson.gam
+probit.gam
+gamma.gee
+logit.gee
+normal.gee
+poisson.gee
+probit.gee
 ologit
 oprobit
 gamma.survey
@@ -38,6 +47,7 @@ logit.survey
 normal.survey
 poisson.survey
 probit.survey
+
 
 {Appendix}
 faq: Frequently Asked Questions

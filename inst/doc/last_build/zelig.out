@@ -1,0 +1,165 @@
+\BOOKMARK [-1][-]{part.1}{I Introduction}{}
+\BOOKMARK [0][-]{chapter.1}{Introduction}{part.1}
+\BOOKMARK [1][-]{section.1.1}{What Zelig and R Do}{chapter.1}
+\BOOKMARK [1][-]{section.1.2}{Getting Help}{chapter.1}
+\BOOKMARK [1][-]{section.1.3}{How to Cite Zelig}{chapter.1}
+\BOOKMARK [0][-]{chapter.2}{Installing Zelig}{part.1}
+\BOOKMARK [1][-]{section.2.1}{Introduction}{chapter.2}
+\BOOKMARK [1][-]{section.2.2}{Requirements for Installation}{chapter.2}
+\BOOKMARK [1][-]{section.2.3}{Installing R}{chapter.2}
+\BOOKMARK [1][-]{section.2.4}{Easy Installation}{chapter.2}
+\BOOKMARK [1][-]{section.2.5}{Advanced Installation}{chapter.2}
+\BOOKMARK [2][-]{subsection.2.5.1}{Install Zelig without Additional Packages}{section.2.5}
+\BOOKMARK [2][-]{subsection.2.5.2}{Install Add-on Packages}{section.2.5}
+\BOOKMARK [1][-]{section.2.6}{Post-Installation}{chapter.2}
+\BOOKMARK [-1][-]{part.2}{II Basic R Commands}{}
+\BOOKMARK [0][-]{chapter.3}{Programming Statements}{part.2}
+\BOOKMARK [1][-]{section.3.1}{Functions}{chapter.3}
+\BOOKMARK [1][-]{section.3.2}{If-Statements}{chapter.3}
+\BOOKMARK [1][-]{section.3.3}{For-Loops}{chapter.3}
+\BOOKMARK [0][-]{chapter.4}{R Syntax}{part.2}
+\BOOKMARK [1][-]{section.4.1}{Command Syntax}{chapter.4}
+\BOOKMARK [2][-]{subsection.4.1.1}{Getting Started}{section.4.1}
+\BOOKMARK [2][-]{subsection.4.1.2}{Details}{section.4.1}
+\BOOKMARK [1][-]{section.4.2}{Data Sets}{chapter.4}
+\BOOKMARK [2][-]{subsection.4.2.1}{Data Structures}{section.4.2}
+\BOOKMARK [2][-]{subsection.4.2.2}{Loading Data}{section.4.2}
+\BOOKMARK [2][-]{subsection.4.2.3}{Saving Data}{section.4.2}
+\BOOKMARK [1][-]{section.4.3}{Variables}{chapter.4}
+\BOOKMARK [2][-]{subsection.4.3.1}{Classes of Variables}{section.4.3}
+\BOOKMARK [2][-]{subsection.4.3.2}{Recoding Variables}{section.4.3}
+\BOOKMARK [0][-]{chapter.5}{R Objects}{part.2}
+\BOOKMARK [1][-]{section.5.1}{Scalar Values}{chapter.5}
+\BOOKMARK [1][-]{section.5.2}{Data Structures}{chapter.5}
+\BOOKMARK [2][-]{subsection.5.2.1}{Arrays}{section.5.2}
+\BOOKMARK [2][-]{subsection.5.2.2}{Lists}{section.5.2}
+\BOOKMARK [2][-]{subsection.5.2.3}{Data Frames}{section.5.2}
+\BOOKMARK [2][-]{subsection.5.2.4}{Identifying Objects and Data Structures}{section.5.2}
+\BOOKMARK [-1][-]{part.3}{III R Basics}{}
+\BOOKMARK [0][-]{chapter.6}{Zelig Commands}{part.3}
+\BOOKMARK [1][-]{section.6.1}{Zelig Commands}{chapter.6}
+\BOOKMARK [2][-]{subsection.6.1.1}{Quick Overview}{section.6.1}
+\BOOKMARK [2][-]{subsection.6.1.2}{Examples}{section.6.1}
+\BOOKMARK [2][-]{subsection.6.1.3}{Details}{section.6.1}
+\BOOKMARK [1][-]{section.6.2}{Supported Models}{chapter.6}
+\BOOKMARK [1][-]{section.6.3}{Replication Procedures}{chapter.6}
+\BOOKMARK [2][-]{subsection.6.3.1}{Saving Replication Materials}{section.6.3}
+\BOOKMARK [2][-]{subsection.6.3.2}{Replicating Analyses}{section.6.3}
+\BOOKMARK [0][-]{chapter.7}{Graphing Commands}{part.3}
+\BOOKMARK [1][-]{section.7.1}{Drawing Plots}{chapter.7}
+\BOOKMARK [1][-]{section.7.2}{Adding Points, Lines, and Legends to Existing Plots}{chapter.7}
+\BOOKMARK [1][-]{section.7.3}{Saving Graphs to Files}{chapter.7}
+\BOOKMARK [1][-]{section.7.4}{Examples}{chapter.7}
+\BOOKMARK [2][-]{subsection.7.4.1}{Descriptive Plots: Box-plots}{section.7.4}
+\BOOKMARK [2][-]{subsection.7.4.2}{Density Plots: A Histogram}{section.7.4}
+\BOOKMARK [2][-]{subsection.7.4.3}{Advanced Examples}{section.7.4}
+\BOOKMARK [-1][-]{part.4}{IV The Zelig API}{}
+\BOOKMARK [0][-]{chapter.8}{Development Guide}{part.4}
+\BOOKMARK [1][-]{section.8.1}{Introduction}{chapter.8}
+\BOOKMARK [1][-]{section.8.2}{Overview}{chapter.8}
+\BOOKMARK [1][-]{section.8.3}{zelig.skeleton: Automating Zelig Model Creation}{chapter.8}
+\BOOKMARK [2][-]{subsection.8.3.1}{A Demonstrative Example}{section.8.3}
+\BOOKMARK [2][-]{subsection.8.3.2}{Explanation of the zelig.skeleton Example}{section.8.3}
+\BOOKMARK [2][-]{subsection.8.3.3}{Conclusion}{section.8.3}
+\BOOKMARK [1][-]{section.8.4}{zelig2: Interacting with Existing Statistical Models in Zelig}{chapter.8}
+\BOOKMARK [2][-]{subsection.8.4.1}{A Simple Example}{section.8.4}
+\BOOKMARK [2][-]{subsection.8.4.2}{A More Detailed Example}{section.8.4}
+\BOOKMARK [2][-]{subsection.8.4.3}{An Even-More Detailed Example}{section.8.4}
+\BOOKMARK [2][-]{subsection.8.4.4}{Summary and More Information aboput zelig2 Methods}{section.8.4}
+\BOOKMARK [1][-]{section.8.5}{param: Simulating Parameters}{chapter.8}
+\BOOKMARK [2][-]{subsection.8.5.1}{The Function Signature}{section.8.5}
+\BOOKMARK [2][-]{subsection.8.5.2}{The Function Return Value}{section.8.5}
+\BOOKMARK [2][-]{subsection.8.5.3}{Summary and More Information param Methods}{section.8.5}
+\BOOKMARK [1][-]{section.8.6}{qi: Simulating Quantities of Interest}{chapter.8}
+\BOOKMARK [2][-]{subsection.8.6.1}{The qi Function Signature}{section.8.6}
+\BOOKMARK [2][-]{subsection.8.6.2}{The qi Function Return Values}{section.8.6}
+\BOOKMARK [2][-]{subsection.8.6.3}{Coding Conventions for the qi Function}{section.8.6}
+\BOOKMARK [2][-]{subsection.8.6.4}{A Simplified Example}{section.8.6}
+\BOOKMARK [2][-]{subsection.8.6.5}{Summary and More Information about qi Methods}{section.8.6}
+\BOOKMARK [1][-]{section.8.7}{Conclusion}{chapter.8}
+\BOOKMARK [0][-]{chapter.9}{zelig2}{part.4}
+\BOOKMARK [1][-]{section.9.1}{Introduction}{chapter.9}
+\BOOKMARK [1][-]{section.9.2}{zelig2 Method Signature}{chapter.9}
+\BOOKMARK [1][-]{section.9.3}{zelig2 Return Value}{chapter.9}
+\BOOKMARK [1][-]{section.9.4}{Notable Features of the zelig2 Method}{chapter.9}
+\BOOKMARK [1][-]{section.9.5}{Details in Coding the zelig2 Method}{chapter.9}
+\BOOKMARK [1][-]{section.9.6}{Example of a zelig2 Method}{chapter.9}
+\BOOKMARK [2][-]{subsection.9.6.1}{zelig2logit.R}{section.9.6}
+\BOOKMARK [2][-]{subsection.9.6.2}{Explanation of zelig2logit.R}{section.9.6}
+\BOOKMARK [0][-]{chapter.10}{param}{part.4}
+\BOOKMARK [1][-]{section.10.1}{Introduction}{chapter.10}
+\BOOKMARK [1][-]{section.10.2}{Method Signature of param}{chapter.10}
+\BOOKMARK [1][-]{section.10.3}{Return Value of param}{chapter.10}
+\BOOKMARK [1][-]{section.10.4}{Writing the param Method}{chapter.10}
+\BOOKMARK [2][-]{subsection.10.4.1}{List Method: Returning an Indexed List of Parameters}{section.10.4}
+\BOOKMARK [1][-]{section.10.5}{Using a parameters Object}{chapter.10}
+\BOOKMARK [2][-]{subsection.10.5.1}{Example param Function}{section.10.5}
+\BOOKMARK [2][-]{subsection.10.5.2}{Explanation of Above qi Code}{section.10.5}
+\BOOKMARK [1][-]{section.10.6}{Future Improvements}{chapter.10}
+\BOOKMARK [0][-]{chapter.11}{qi}{part.4}
+\BOOKMARK [1][-]{section.11.1}{Introduction}{chapter.11}
+\BOOKMARK [1][-]{section.11.2}{Notable Features of qi Function}{chapter.11}
+\BOOKMARK [1][-]{section.11.3}{Basic Layout of a qi Function}{chapter.11}
+\BOOKMARK [2][-]{subsection.11.3.1}{The Function's Signature}{section.11.3}
+\BOOKMARK [2][-]{subsection.11.3.2}{Code Example: qi Function Signature}{section.11.3}
+\BOOKMARK [2][-]{subsection.11.3.3}{The Function Body}{section.11.3}
+\BOOKMARK [2][-]{subsection.11.3.4}{The Return Value}{section.11.3}
+\BOOKMARK [1][-]{section.11.4}{Simple Example qi function \(qi.logit.R\)}{chapter.11}
+\BOOKMARK [-1][-]{part.5}{V Zelig Reference Manual}{}
+\BOOKMARK [0][-]{chapter.12}{gamma}{part.5}
+\BOOKMARK [1][-]{section.12.1}{gamma: Gamma Regression for Continuous, Positive Dependent Variables}{chapter.12}
+\BOOKMARK [0][-]{chapter.13}{logit}{part.5}
+\BOOKMARK [1][-]{section.13.1}{logit: Logistic Regression for Dichotomous Dependent Variables}{chapter.13}
+\BOOKMARK [0][-]{chapter.14}{ls}{part.5}
+\BOOKMARK [1][-]{section.14.1}{ls: Least Squares Regression for Continuous Dependent Variables}{chapter.14}
+\BOOKMARK [0][-]{chapter.15}{negbinom}{part.5}
+\BOOKMARK [1][-]{section.15.1}{negbinom: Negative Binomial Regression for Event Count Dependent Variables}{chapter.15}
+\BOOKMARK [0][-]{chapter.16}{normal}{part.5}
+\BOOKMARK [1][-]{section.16.1}{normal: Normal Regression for Continuous Dependent Variables}{chapter.16}
+\BOOKMARK [0][-]{chapter.17}{poisson}{part.5}
+\BOOKMARK [1][-]{section.17.1}{poisson: Poisson Regression for Event Count Dependent Variables}{chapter.17}
+\BOOKMARK [0][-]{chapter.18}{probit}{part.5}
+\BOOKMARK [1][-]{section.18.1}{probit: Probit Regression for Dichotomous Dependent Variables}{chapter.18}
+\BOOKMARK [0][-]{chapter.19}{logit.gam}{part.5}
+\BOOKMARK [1][-]{section.19.1}{logit.gam: Generalized Additive Model for Dichotomous Dependent Variables}{chapter.19}
+\BOOKMARK [0][-]{chapter.20}{normal.gam}{part.5}
+\BOOKMARK [1][-]{section.20.1}{normal.gam: Generalized Additive Model for Continuous Dependent Variables}{chapter.20}
+\BOOKMARK [0][-]{chapter.21}{poisson.gam}{part.5}
+\BOOKMARK [1][-]{section.21.1}{poisson.gam: Generalized Additive Model for Count Dependent Variables}{chapter.21}
+\BOOKMARK [0][-]{chapter.22}{probit.gam}{part.5}
+\BOOKMARK [1][-]{section.22.1}{probit.gam: Generalized Additive Model for Dichotomous Dependent Variables}{chapter.22}
+\BOOKMARK [0][-]{chapter.23}{gamma.gee}{part.5}
+\BOOKMARK [1][-]{section.23.1}{gamma.gee: Generalized Estimating Equation for Gamma Regression}{chapter.23}
+\BOOKMARK [0][-]{chapter.24}{logit.gee}{part.5}
+\BOOKMARK [1][-]{section.24.1}{logit.gee: Generalized Estimating Equation for Logistic Regression}{chapter.24}
+\BOOKMARK [0][-]{chapter.25}{normal.gee}{part.5}
+\BOOKMARK [1][-]{section.25.1}{normal.gee: Generalized Estimating Equation for Normal Regression}{chapter.25}
+\BOOKMARK [0][-]{chapter.26}{poisson.gee}{part.5}
+\BOOKMARK [1][-]{section.26.1}{poisson.gee: Generalized Estimating Equation for Poisson Regression}{chapter.26}
+\BOOKMARK [0][-]{chapter.27}{probit.gee}{part.5}
+\BOOKMARK [1][-]{section.27.1}{probit.gee: Generalized Estimating Equation for Probit Regression}{chapter.27}
+\BOOKMARK [0][-]{chapter.28}{bprobit}{part.5}
+\BOOKMARK [1][-]{section.28.1}{bprobit: Bivariate Logistic Regression for Two Dichotomous Dependent Variables}{chapter.28}
+\BOOKMARK [0][-]{chapter.29}{blogit}{part.5}
+\BOOKMARK [1][-]{section.29.1}{blogit: Bivariate Logistic Regression for Two Dichotomous Dependent Variables}{chapter.29}
+\BOOKMARK [0][-]{chapter.30}{ologit}{part.5}
+\BOOKMARK [1][-]{section.30.1}{ologit: Ordinal Logistic Regression for Ordered Categorical Dependent Variables}{chapter.30}
+\BOOKMARK [0][-]{chapter.31}{oprobit}{part.5}
+\BOOKMARK [1][-]{section.31.1}{oprobit: Ordinal Probit Regression for Ordered Categorical Dependent Variables}{chapter.31}
+\BOOKMARK [0][-]{chapter.32}{gamma.survey}{part.5}
+\BOOKMARK [1][-]{section.32.1}{gamma.survey: Survey-Weighted Gamma Regression for Continuous, Positive Dependent Variables}{chapter.32}
+\BOOKMARK [0][-]{chapter.33}{logit.survey}{part.5}
+\BOOKMARK [1][-]{section.33.1}{logit.survey: Survey-Weighted Logistic Regression for Dichotomous Dependent Variables}{chapter.33}
+\BOOKMARK [0][-]{chapter.34}{normal.survey}{part.5}
+\BOOKMARK [1][-]{section.34.1}{normal.survey: Survey-Weighted Normal Regression for Continuous Dependent Variables}{chapter.34}
+\BOOKMARK [0][-]{chapter.35}{poisson.survey}{part.5}
+\BOOKMARK [1][-]{section.35.1}{poisson.survey: Survey-Weighted Poisson Regression for Event Count Dependent Variables}{chapter.35}
+\BOOKMARK [0][-]{chapter.36}{probit.survey}{part.5}
+\BOOKMARK [1][-]{section.36.1}{probit.survey: Survey-Weighted Probit Regression for Dichotomous Dependent Variables}{chapter.36}
+\BOOKMARK [-1][-]{part.6}{VI Appendix}{}
+\BOOKMARK [0][-]{chapter.37}{FAQ}{part.6}
+\BOOKMARK [1][-]{section.37.1}{For All Zelig Users}{chapter.37}
+\BOOKMARK [1][-]{section.37.2}{For Zelig Contributors}{chapter.37}
+\BOOKMARK [0][-]{chapter.38}{What's New?}{part.6}
+\BOOKMARK [1][-]{section.38.1}{What's New: Zelig Release Notes}{chapter.38}
+\BOOKMARK [1][-]{section.38.2}{What's Next?}{chapter.38}

@@ -3,18 +3,19 @@ intro: Introduction to Zelig
 install: Installation
 
 
-{User's Guide: Basics}
+{R Basics}
 syntax: R Syntax
 Zcommands: Zelig Commands
 graphs: Graphing Commands
 
 
-{User's Guide: Basic R Commands}
+{Basic R Commands}
 robjects: R Objects
 programmingstatements: Programming Statements
 
 
-{User's Guide: The Zelig API}
+{The Zelig API}
+quickstart: Rapid Development Guide
 zelig2: Interfacing External Methods with Zelig
 parameters: Generalizing Common Components of Fitted Statistical Models
 qi: Simulating Quantities of Interest

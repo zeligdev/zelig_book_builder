@@ -546,7 +546,9 @@ sub new {
              _file => $params{file},
              _FILE => $handle,
              _title => $params{title},
-             _authors => $params{authors},
+             _version => $params{version},
+             _date => $params{date},
+             _author => $params{author},
              _parts => [],
              _part_order => {},
 
@@ -603,10 +605,13 @@ sub write_book {
   my @packages = DocTools::uniq @{$self->{_packages}};
 
   print $handle "\\documentclass{book}\n\n";
+  print $handle "\\title{\n", $self->{_title}, "}\n";
+  print $handle "\\author{", $self->{_author}, "}\n";
+  print $handle "\\date{", $self->{_date}, "}\n";
   print $handle "% packages\n";
   print $handle join "\n", map { "\\usepackage{$_}" } @packages;
   print $handle "\n\n";
-  print $handle "\\begin{document}\n\n";
+  print $handle "\\begin{document}\n\\maketitle\n\n";
 
   for (@{$self->{_parts}}) {
     $_->write($handle, $self->{_file})
@@ -933,5 +938,7 @@ our $bib = qr//;
 our $bibstyle = qr//;
 
 our $nobib = qr/\\nobibliography\*?/;
+
+our $include = qr/\^(.*?)/;
 
 1;

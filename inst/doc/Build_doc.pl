@@ -75,13 +75,43 @@ open CONF, "<$conf_file" or die("could not open `$conf_file' for reading");
 # BEGIN MAKING BOOK
 # *****************
 
+my $title = << "DOC";
+  Zelig: Everyone's Statistical Software\\thanks{The current version of
+  this software is available at 
+  \\url{http://gking.harvard.edu/zelig}, free of charge and open-source
+  (under the terms of the GNU GPL, v2)}
+DOC
+
+my $author = << "AUTHORS";
+  Kosuke Imai\\thanks{Assistant Professor, Department of Politics,
+  Princeton University
+  (Corwin Hall, Department of Politics, Princeton University, Princeton NJ 08544;
+  \\url{http://imai.princeton.edu/}, \\texttt{kimai\@princeton.edu})}
+  \\and
+  Gary King\\thanks{Albert J. Weatherhead III University Professor, Harvard
+  University (Institute for Quantitative Social Sciences, 1737 Cambridge 
+  Street, Harvard University, Cambridge MA 02138;
+  \\texttt{http://gking.harvard.edu}, \\texttt{king\@harvard.edu},
+  (617) 495-2027).}
+  \\and
+  Olivia Lau\\thanks{Ph.D. Candidate, Department of Government, Harvard
+  University (1737 Cambridge Street, Cambridge MA 02138;
+  \\texttt{http://www.people.fas.harvard.edu/\\~\\,olau},
+  \\texttt{olau\@fas.harvard.edu}).}
+AUTHORS
+
+my $date = << "DATE";
+\\today
+DATE
 
 my $tmp_dir = "";
 my $book = new Book(
-  title => "Zelig",
-  author => "Matt Owen and Kosuke Imai and Olivia Lau and Gary King",
-  file => "zelig.tex"
+  title => $title,
+  author => $author,
+  file => "zelig.tex",
+  date => $date
 );
+
 
 
 
@@ -134,6 +164,10 @@ for my $line (<CONF>) {
                            $short
                            );
     $part->add_chapters("$dir/$line" => $chapter);
+  }
+
+  # include file in the beginning
+  elsif ($line =~ m/$DocRegexes::include/) {
   }
 
   elsif ($line =~ m/$DocRegexes::appendix/) {

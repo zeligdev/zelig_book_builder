@@ -1,0 +1,236 @@
+\documentclass{book}
+
+\title{
+  Zelig: Everyone's Statistical Software\thanks{The current version of
+  this software is available at 
+  \url{http://gking.harvard.edu/zelig}, free of charge and open-source
+  (under the terms of the GNU GPL, v2)}
+}
+\author{  Kosuke Imai\thanks{Assistant Professor, Department of Politics,
+  Princeton University
+  (Corwin Hall, Department of Politics, Princeton University, Princeton NJ 08544;
+  \url{http://imai.princeton.edu/}, \texttt{kimai@princeton.edu})}
+  \and
+  Gary King\thanks{Albert J. Weatherhead III University Professor, Harvard
+  University (Institute for Quantitative Social Sciences, 1737 Cambridge 
+  Street, Harvard University, Cambridge MA 02138;
+  \texttt{http://gking.harvard.edu}, \texttt{king@harvard.edu},
+  (617) 495-2027).}
+  \and
+  Olivia Lau\thanks{Ph.D. Candidate, Department of Government, Harvard
+  University (1737 Cambridge Street, Cambridge MA 02138;
+  \texttt{http://www.people.fas.harvard.edu/\~\,olau},
+  \texttt{olau@fas.harvard.edu}).}
+}
+\date{\today
+}
+% packages
+\usepackage{Code}
+\usepackage{bibentry}
+\usepackage{graphicx}
+\usepackage{natbib}
+\usepackage{amsmath}
+\usepackage{url}
+\usepackage{Zelig}
+\usepackage{Sweave}
+\usepackage{upquote}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{verbatim}
+\usepackage{epsf}
+\usepackage{html}
+\usepackage{dcolumn}
+\usepackage{multirow}
+\usepackage{fullpage}
+\usepackage{lscape}
+
+\begin{document}
+\maketitle
+\tableofcontents
+
+% Part: INTRO
+\part{Introduction}
+\label{part:Introduction}
+
+\chapter[Introduction]{Introduction to Zelig}
+\label{chapter:Intro}
+\input{intro}
+
+\chapter[Installing Zelig]{Installing Zelig}
+\label{chapter:Install}
+\input{install}
+
+% Part: BASIC R
+\part{Basic R Commands}
+\label{part:Basic R Commands}
+
+\chapter[Programming Statements]{Programming Statements}
+\label{chapter:Programmingstatements}
+\input{programmingstatements}
+
+\chapter[R Syntax]{R Syntax}
+\label{chapter:Syntax}
+\input{syntax}
+
+\chapter[R Objects]{R Objects}
+\label{chapter:Robjects}
+\input{robjects}
+
+% Part: BASIC ZELIG
+\part{R Basics}
+\label{part:R Basics}
+
+\chapter[Zelig Commands]{Zelig Commands}
+\label{chapter:Zcommands}
+\input{Zcommands}
+
+\chapter[Graphing Commands]{Graphing Commands}
+\label{chapter:Graphs}
+\input{graphs}
+
+% Part: ZELIG API
+\part{The Zelig API}
+\label{part:The Zelig API}
+
+\chapter[Development Guide]{Rapid Development Guide}
+\label{chapter:Quickstart}
+\input{quickstart}
+
+\chapter[zelig2]{zelig2: Interfacing External Methods with Zelig}
+\label{chapter:Zelig2}
+\input{zelig2}
+
+\chapter[param]{param:Generalizing Common Components of Fitted Statistical Models}
+\label{chapter:Parameters}
+\input{parameters}
+
+\chapter[qi]{qi: Simulating Quantities of Interest}
+\label{chapter:Qi}
+\input{qi}
+
+% Part: Reference Manual
+\part{Zelig Reference Manual}
+\label{part:Zelig Reference Manual}
+
+% CORE PACKAGES
+\chapter[gamma]{gamma: Gamma Regression for Continuous, Positive Dependent Variables}
+\label{chapter:Gamma}
+\input{gamma}
+
+\chapter[logit]{logit: Logistic Regression for Dichotomous Dependent Variables}
+\label{chapter:Logit}
+\input{logit}
+
+\chapter[ls]{ls: Least Squares Regression for Continuous Dependent Variables}
+\label{chapter:Ls}
+\input{ls}
+
+\chapter[negbinom]{negbinom: Negative Binomial Regression for Event Count Dependent Variables}
+\label{chapter:Negbinom}
+\input{negbinom}
+
+\chapter[normal]{normal: Normal Regression for Continuous Dependent Variables}
+\label{chapter:Normal}
+\input{normal}
+
+\chapter[poisson]{poisson: Poisson Regression for Event Count Dependent Variables}
+\label{chapter:Poisson}
+\input{poisson}
+
+\chapter[probit]{probit: Probit Regression for Dichotomous Dependent Variables}
+\label{chapter:Probit}
+\input{probit}
+
+% GAM
+\chapter[logit.gam]{logit.gam: Generalized Additive Model for Dichotomous Dependent Variables}
+\label{chapter:logit.gam}
+\input{logit.gam}
+
+\chapter[normal.gam]{normal.gam: Generalized Additive Model for Continuous Dependent Variables}
+\label{chapter:normal.gam}
+\input{normal.gam}
+
+\chapter[poisson.gam]{poisson.gam: Generalized Additive Model for Count Dependent Variables}
+\label{chapter:poisson.gam}
+\input{poisson.gam}
+
+\chapter[probit.gam]{probit.gam: Generalized Additive Model for Dichotomous Dependent Variables}
+\label{chapter:probit.gam}
+\input{probit.gam}
+
+% GEE
+\chapter[gamma.gee]{gamma.gee: Generalized Estimating Equation for Gamma Regression}
+\label{chapter:gamma.gee}
+\input{gamma.gee}
+
+\chapter[logit.gee]{logit.gee: Generalized Estimating Equation for Logit Regression}
+\label{chapter:logit.gee}
+\input{logit.gee}
+
+\chapter[normal.gee]{normal.gee: Generalized Estimating Equation for Normal Regression}
+\label{chapter:normal.gee}
+\input{normal.gee}
+
+\chapter[poisson.gee]{poisson.gee: Generalized Estimating Equation for Gamma Regression}
+\label{chapter:poisson.gee}
+\input{poisson.gee}
+
+\chapter[probit.gee]{probit.gee: General Estimating Equation for Probit Regression}
+\label{chapter:}
+\input{probit.gee}
+
+% BIVARIATE
+\chapter[bprobit]{bprobit: Bivariate Logistic Regression for Two Dichotomous Dependent Variables}
+\label{chapter:Bprobit}
+\input{bprobit}
+
+\chapter[blogit]{blogit: Bivariate Logistic Regression for Two Dichotomous Dependent Variables}
+\label{chapter:Blogit}
+\input{blogit}
+
+% MULTINOMIAL
+% (EMPTY)
+
+% ORDINAL
+\chapter[ologit]{ologit: Ordinal Logistic Regression for Ordered Categorical Dependent Variablest}
+\label{chapter:Ologit}
+\input{ologit}
+
+\chapter[oprobit]{oprobit: Ordinal Probit Regression for Ordered Categorical Dependent Variables}
+\label{chapter:Oprobit}
+\input{oprobit}
+
+% SURVEY
+\chapter[gamma.survey]{gamma.survey: Survey-Weighted Gamma Regression for Continuous, Positive Dependent Variables}
+\label{chapter:Gamma.survey}
+\input{gamma.survey}
+
+\chapter[logit.survey]{logit.survey: Survey-Weighted Logistic Regression for Dichotomous Dependent Variables}
+\label{chapter:Logit.survey}
+\input{logit.survey}
+
+\chapter[normal.survey]{normal.survey: Survey-Weighted Normal Regression for Continuous Dependent Variables}
+\label{chapter:Normal.survey}
+\input{normal.survey}
+
+\chapter[poisson.survey]{poisson.survey: Survey-Weighted Poisson Regression for Event Count Dependent Variables}
+\label{chapter:Poisson.survey}
+\input{poisson.survey}
+
+\chapter[probit.survey]{probit.survey: Survey-Weighted Probit Regression for Dichotomous Dependent Variables}
+\label{chapter:Probit.survey}
+\input{probit.survey}
+
+\part{Appendix}
+\label{part:Appendix}
+
+\chapter[FAQ]{Frequently Asked Questions}
+\label{chapter:Faq}
+\input{faq}
+
+\chapter[What's New?]{What's New?}
+\label{chapter:Whatsnew}
+\input{whatsnew}
+
+\bibliography{gk,gkpubs,core,bivariate.zelig,gam.zelig,gee.zelig,ordinal.zelig,survey.Zelig}
+\bibliographystyle{plain}\end{document}

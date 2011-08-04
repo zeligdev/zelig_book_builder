@@ -1,0 +1,329 @@
+\contentsline {part}{I\hspace {1em}Introduction}{9}{part.1}
+\contentsline {chapter}{\numberline {1}Introduction}{11}{chapter.1}
+\contentsline {section}{\numberline {1.1}What Zelig and R Do}{11}{section.1.1}
+\contentsline {section}{\numberline {1.2}Getting Help}{12}{section.1.2}
+\contentsline {section}{\numberline {1.3}How to Cite Zelig}{12}{section.1.3}
+\contentsline {chapter}{\numberline {2}Installing Zelig}{13}{chapter.2}
+\contentsline {section}{\numberline {2.1}Introduction}{13}{section.2.1}
+\contentsline {section}{\numberline {2.2}Requirements for Installation}{13}{section.2.2}
+\contentsline {section}{\numberline {2.3}Installing R}{13}{section.2.3}
+\contentsline {section}{\numberline {2.4}Easy Installation}{14}{section.2.4}
+\contentsline {section}{\numberline {2.5}Advanced Installation}{14}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Install Zelig without Additional Packages}{14}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Install Add-on Packages}{14}{subsection.2.5.2}
+\contentsline {subsubsection}{List of Available Packages}{14}{section*.2}
+\contentsline {subsubsection}{Using {\tt install.packages}}{15}{section*.3}
+\contentsline {section}{\numberline {2.6}Post-Installation}{15}{section.2.6}
+\contentsline {part}{II\hspace {1em}Basic R Commands}{17}{part.2}
+\contentsline {chapter}{\numberline {3}Programming Statements}{19}{chapter.3}
+\contentsline {section}{\numberline {3.1}Functions}{19}{section.3.1}
+\contentsline {section}{\numberline {3.2}If-Statements}{19}{section.3.2}
+\contentsline {section}{\numberline {3.3}For-Loops}{20}{section.3.3}
+\contentsline {paragraph}{Example 1: Creating a vector with a logical statement}{20}{section*.4}
+\contentsline {paragraph}{Example 2: Creating dummy variables by hand}{20}{section*.5}
+\contentsline {paragraph}{Example 3: Weighted regression with subsets}{21}{section*.6}
+\contentsline {chapter}{\numberline {4}R Syntax}{23}{chapter.4}
+\contentsline {section}{\numberline {4.1}Command Syntax}{23}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Getting Started}{23}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Details}{23}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}Data Sets}{24}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Data Structures}{24}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Loading Data}{25}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Saving Data}{26}{subsection.4.2.3}
+\contentsline {section}{\numberline {4.3}Variables}{27}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Classes of Variables}{27}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Recoding Variables}{28}{subsection.4.3.2}
+\contentsline {chapter}{\numberline {5}R Objects}{33}{chapter.5}
+\contentsline {section}{\numberline {5.1}Scalar Values}{33}{section.5.1}
+\contentsline {section}{\numberline {5.2}Data Structures}{34}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Arrays}{34}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Lists}{37}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Data Frames}{37}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Identifying Objects and Data Structures}{37}{subsection.5.2.4}
+\contentsline {part}{III\hspace {1em}R Basics}{39}{part.3}
+\contentsline {chapter}{\numberline {6}Zelig Commands}{41}{chapter.6}
+\contentsline {section}{\numberline {6.1}Zelig Commands}{41}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Quick Overview}{41}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Examples}{42}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.3}Details}{43}{subsection.6.1.3}
+\contentsline {section}{\numberline {6.2}Supported Models}{47}{section.6.2}
+\contentsline {section}{\numberline {6.3}Replication Procedures}{48}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Saving Replication Materials}{48}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Replicating Analyses}{49}{subsection.6.3.2}
+\contentsline {chapter}{\numberline {7}Graphing Commands}{51}{chapter.7}
+\contentsline {section}{\numberline {7.1}Drawing Plots}{51}{section.7.1}
+\contentsline {section}{\numberline {7.2}Adding Points, Lines, and Legends to Existing Plots}{52}{section.7.2}
+\contentsline {section}{\numberline {7.3}Saving Graphs to Files}{53}{section.7.3}
+\contentsline {section}{\numberline {7.4}Examples}{54}{section.7.4}
+\contentsline {subsection}{\numberline {7.4.1}Descriptive Plots: Box-plots}{54}{subsection.7.4.1}
+\contentsline {subsection}{\numberline {7.4.2}Density Plots: A Histogram}{55}{subsection.7.4.2}
+\contentsline {subsection}{\numberline {7.4.3}Advanced Examples}{56}{subsection.7.4.3}
+\contentsline {part}{IV\hspace {1em}The Zelig API}{59}{part.4}
+\contentsline {chapter}{\numberline {8}Development Guide}{61}{chapter.8}
+\contentsline {section}{\numberline {8.1}Introduction}{61}{section.8.1}
+\contentsline {section}{\numberline {8.2}Overview}{61}{section.8.2}
+\contentsline {section}{\numberline {8.3}{\tt zelig.skeleton}: Automating Zelig Model Creation}{61}{section.8.3}
+\contentsline {subsection}{\numberline {8.3.1}A Demonstrative Example}{62}{subsection.8.3.1}
+\contentsline {subsection}{\numberline {8.3.2}Explanation of the {\tt zelig.skeleton} Example}{62}{subsection.8.3.2}
+\contentsline {subsection}{\numberline {8.3.3}Conclusion}{62}{subsection.8.3.3}
+\contentsline {section}{\numberline {8.4}\emph {zelig2}: Interacting with Existing Statistical Models in Zelig}{62}{section.8.4}
+\contentsline {subsection}{\numberline {8.4.1}A Simple Example}{63}{subsection.8.4.1}
+\contentsline {subsection}{\numberline {8.4.2}A More Detailed Example}{63}{subsection.8.4.2}
+\contentsline {subsection}{\numberline {8.4.3}An Even-More Detailed Example}{64}{subsection.8.4.3}
+\contentsline {subsection}{\numberline {8.4.4}Summary and More Information aboput {\tt zelig2} Methods}{65}{subsection.8.4.4}
+\contentsline {section}{\numberline {8.5}\emph {param}: Simulating Parameters}{65}{section.8.5}
+\contentsline {subsection}{\numberline {8.5.1}The Function Signature}{65}{subsection.8.5.1}
+\contentsline {subsection}{\numberline {8.5.2}The Function Return Value}{66}{subsection.8.5.2}
+\contentsline {subsection}{\numberline {8.5.3}Summary and More Information {\tt param} Methods}{67}{subsection.8.5.3}
+\contentsline {section}{\numberline {8.6}qi: Simulating Quantities of Interest}{67}{section.8.6}
+\contentsline {subsection}{\numberline {8.6.1}The {\tt qi} Function Signature}{68}{subsection.8.6.1}
+\contentsline {subsection}{\numberline {8.6.2}The {\tt qi} Function Return Values}{68}{subsection.8.6.2}
+\contentsline {subsection}{\numberline {8.6.3}Coding Conventions for the {\tt qi} Function}{68}{subsection.8.6.3}
+\contentsline {subsection}{\numberline {8.6.4}A Simplified Example}{69}{subsection.8.6.4}
+\contentsline {subsubsection}{{\tt qi.logit} Function}{69}{section*.17}
+\contentsline {subsubsection}{{\tt .compute.ev} Function}{69}{section*.18}
+\contentsline {subsection}{\numberline {8.6.5}Summary and More Information about {\tt qi} Methods}{70}{subsection.8.6.5}
+\contentsline {section}{\numberline {8.7}Conclusion}{70}{section.8.7}
+\contentsline {chapter}{\numberline {9}zelig2}{71}{chapter.9}
+\contentsline {section}{\numberline {9.1}Introduction}{71}{section.9.1}
+\contentsline {section}{\numberline {9.2}{\tt zelig2} Method Signature}{71}{section.9.2}
+\contentsline {section}{\numberline {9.3}{\tt zelig2} Return Value}{72}{section.9.3}
+\contentsline {section}{\numberline {9.4}Notable Features of the {\tt zelig2} Method}{72}{section.9.4}
+\contentsline {section}{\numberline {9.5}Details in Coding the {\tt zelig2} Method}{72}{section.9.5}
+\contentsline {section}{\numberline {9.6}Example of a {\tt zelig2} Method}{73}{section.9.6}
+\contentsline {subsection}{\numberline {9.6.1}{\tt zelig2logit.R}}{73}{subsection.9.6.1}
+\contentsline {subsection}{\numberline {9.6.2}Explanation of {\tt zelig2logit.R}}{73}{subsection.9.6.2}
+\contentsline {chapter}{\numberline {10}param}{75}{chapter.10}
+\contentsline {section}{\numberline {10.1}Introduction}{75}{section.10.1}
+\contentsline {section}{\numberline {10.2}Method Signature of {\tt param}}{75}{section.10.2}
+\contentsline {section}{\numberline {10.3}Return Value of {\tt param}}{75}{section.10.3}
+\contentsline {section}{\numberline {10.4}Writing the \emph {param} Method}{76}{section.10.4}
+\contentsline {subsection}{\numberline {10.4.1}List Method: Returning an Indexed List of Parameters}{76}{subsection.10.4.1}
+\contentsline {subsubsection}{Example of Indexed List Method with \emph {fam} Object Set}{76}{section*.19}
+\contentsline {subsubsection}{Explanation of Indexed List with \emph {fam} Object Set Example}{76}{section*.20}
+\contentsline {subsubsection}{Example of Indexed List Method (with \emph {link} Function) Set}{76}{section*.21}
+\contentsline {subsubsection}{Explanation of Indexed List (with \emph {link} Function) Example}{77}{section*.22}
+\contentsline {section}{\numberline {10.5}Using a \emph {parameters} Object}{77}{section.10.5}
+\contentsline {subsection}{\numberline {10.5.1}Example \emph {param} Function}{77}{subsection.10.5.1}
+\contentsline {subsection}{\numberline {10.5.2}Explanation of Above \emph {qi} Code}{77}{subsection.10.5.2}
+\contentsline {section}{\numberline {10.6}Future Improvements}{77}{section.10.6}
+\contentsline {chapter}{\numberline {11}qi}{79}{chapter.11}
+\contentsline {section}{\numberline {11.1}Introduction}{79}{section.11.1}
+\contentsline {section}{\numberline {11.2}Notable Features of \emph {qi} Function}{79}{section.11.2}
+\contentsline {section}{\numberline {11.3}Basic Layout of a \emph {qi} Function}{79}{section.11.3}
+\contentsline {subsection}{\numberline {11.3.1}The Function's Signature}{79}{subsection.11.3.1}
+\contentsline {subsection}{\numberline {11.3.2}Code Example: \emph {qi} Function Signature}{80}{subsection.11.3.2}
+\contentsline {subsection}{\numberline {11.3.3}The Function Body}{80}{subsection.11.3.3}
+\contentsline {subsection}{\numberline {11.3.4}The Return Value}{80}{subsection.11.3.4}
+\contentsline {section}{\numberline {11.4}Simple Example {\tt qi} function ({\tt qi.logit.R})}{82}{section.11.4}
+\contentsline {part}{V\hspace {1em}Zelig Reference Manual}{83}{part.5}
+\contentsline {chapter}{\numberline {12}gamma}{85}{chapter.12}
+\contentsline {section}{\numberline {12.1}{\tt gamma}: Gamma Regression for Continuous, Positive Dependent Variables}{85}{section.12.1}
+\contentsline {subsubsection}{Syntax}{85}{section*.23}
+\contentsline {subsubsection}{Additional Inputs}{85}{section*.24}
+\contentsline {subsubsection}{Example}{86}{section*.25}
+\contentsline {subsubsection}{Model}{88}{section*.26}
+\contentsline {subsubsection}{Quantities of Interest}{88}{section*.27}
+\contentsline {subsubsection}{Output Values}{89}{section*.28}
+\contentsline {chapter}{\numberline {13}logit}{91}{chapter.13}
+\contentsline {section}{\numberline {13.1}{\tt logit}: Logistic Regression for Dichotomous Dependent Variables}{91}{section.13.1}
+\contentsline {subsubsection}{Syntax}{91}{section*.32}
+\contentsline {subsubsection}{Additional Inputs}{91}{section*.33}
+\contentsline {subsubsection}{Examples}{92}{section*.34}
+\contentsline {subsubsection}{Model}{94}{section*.35}
+\contentsline {subsubsection}{Quantities of Interest}{95}{section*.36}
+\contentsline {subsubsection}{Output Values}{95}{section*.37}
+\contentsline {chapter}{\numberline {14}ls}{97}{chapter.14}
+\contentsline {section}{\numberline {14.1}{\tt ls}: Least Squares Regression for Continuous Dependent Variables}{97}{section.14.1}
+\contentsline {subsubsection}{Syntax}{97}{section*.41}
+\contentsline {subsubsection}{Additional Inputs}{97}{section*.42}
+\contentsline {subsubsection}{Examples}{98}{section*.43}
+\contentsline {subsubsection}{Model}{99}{section*.44}
+\contentsline {subsubsection}{Quantities of Interest}{100}{section*.45}
+\contentsline {subsubsection}{Output Values}{100}{section*.46}
+\contentsline {chapter}{\numberline {15}negbinom}{103}{chapter.15}
+\contentsline {section}{\numberline {15.1}{\tt negbinom}: Negative Binomial Regression for Event Count Dependent Variables}{103}{section.15.1}
+\contentsline {subsubsection}{Syntax}{103}{section*.50}
+\contentsline {subsubsection}{Additional Inputs}{103}{section*.51}
+\contentsline {subsubsection}{Example}{104}{section*.52}
+\contentsline {subsubsection}{Model}{105}{section*.53}
+\contentsline {subsubsection}{Quantities of Interest}{105}{section*.54}
+\contentsline {subsubsection}{Output Values}{106}{section*.55}
+\contentsline {chapter}{\numberline {16}normal}{109}{chapter.16}
+\contentsline {section}{\numberline {16.1}{\tt normal}: Normal Regression for Continuous Dependent Variables}{109}{section.16.1}
+\contentsline {subsubsection}{Syntax}{109}{section*.59}
+\contentsline {subsubsection}{Additional Inputs}{109}{section*.60}
+\contentsline {subsubsection}{Examples}{110}{section*.61}
+\contentsline {subsubsection}{Model}{111}{section*.62}
+\contentsline {subsubsection}{Quantities of Interest}{112}{section*.63}
+\contentsline {subsubsection}{Output Values}{112}{section*.64}
+\contentsline {chapter}{\numberline {17}poisson}{115}{chapter.17}
+\contentsline {section}{\numberline {17.1}{\tt poisson}: Poisson Regression for Event Count Dependent Variables}{115}{section.17.1}
+\contentsline {subsubsection}{Syntax}{115}{section*.68}
+\contentsline {subsubsection}{Additional Inputs}{115}{section*.69}
+\contentsline {subsubsection}{Example}{116}{section*.70}
+\contentsline {subsubsection}{Model}{117}{section*.71}
+\contentsline {subsubsection}{Quantities of Interest}{117}{section*.72}
+\contentsline {subsubsection}{Output Values}{118}{section*.73}
+\contentsline {chapter}{\numberline {18}probit}{121}{chapter.18}
+\contentsline {section}{\numberline {18.1}{\tt probit}: Probit Regression for Dichotomous Dependent Variables}{121}{section.18.1}
+\contentsline {subsubsection}{Syntax}{121}{section*.77}
+\contentsline {subsubsection}{Additional Inputs}{121}{section*.78}
+\contentsline {subsubsection}{Examples}{122}{section*.79}
+\contentsline {subsubsection}{Model}{122}{section*.80}
+\contentsline {subsubsection}{Quantities of Interest}{122}{section*.81}
+\contentsline {subsubsection}{Output Values}{123}{section*.82}
+\contentsline {chapter}{\numberline {19}logit.gam}{125}{chapter.19}
+\contentsline {section}{\numberline {19.1}{\tt logit.gam}: Generalized Additive Model for Dichotomous Dependent Variables}{125}{section.19.1}
+\contentsline {subsubsection}{Syntax}{125}{section*.86}
+\contentsline {subsubsection}{Additional Inputs}{125}{section*.87}
+\contentsline {subsubsection}{Examples}{126}{section*.88}
+\contentsline {subsubsection}{Model}{128}{section*.89}
+\contentsline {subsubsection}{Quantities of Interest}{129}{section*.90}
+\contentsline {subsubsection}{Output Values}{129}{section*.91}
+\contentsline {chapter}{\numberline {20}normal.gam}{131}{chapter.20}
+\contentsline {section}{\numberline {20.1}{\tt normal.gam}: Generalized Additive Model for Continuous Dependent Variables}{131}{section.20.1}
+\contentsline {subsubsection}{Syntax}{131}{section*.95}
+\contentsline {subsubsection}{Additional Inputs}{131}{section*.96}
+\contentsline {subsubsection}{Examples}{132}{section*.97}
+\contentsline {subsubsection}{Model}{134}{section*.98}
+\contentsline {subsubsection}{Quantities of Interest}{135}{section*.99}
+\contentsline {subsubsection}{Output Values}{135}{section*.100}
+\contentsline {chapter}{\numberline {21}poisson.gam}{137}{chapter.21}
+\contentsline {section}{\numberline {21.1}{\tt poisson.gam}: Generalized Additive Model for Count Dependent Variables}{137}{section.21.1}
+\contentsline {subsubsection}{Syntax}{137}{section*.104}
+\contentsline {subsubsection}{Additional Inputs}{137}{section*.105}
+\contentsline {subsubsection}{Examples}{138}{section*.106}
+\contentsline {subsubsection}{Model}{140}{section*.107}
+\contentsline {subsubsection}{Quantities of Interest}{141}{section*.108}
+\contentsline {subsubsection}{Output Values}{141}{section*.109}
+\contentsline {chapter}{\numberline {22}probit.gam}{143}{chapter.22}
+\contentsline {section}{\numberline {22.1}{\tt probit.gam}: Generalized Additive Model for Dichotomous Dependent Variables}{143}{section.22.1}
+\contentsline {subsubsection}{Syntax}{143}{section*.113}
+\contentsline {subsubsection}{Additional Inputs}{143}{section*.114}
+\contentsline {subsubsection}{Examples}{144}{section*.115}
+\contentsline {subsubsection}{Model}{146}{section*.116}
+\contentsline {subsubsection}{Quantities of Interest}{147}{section*.117}
+\contentsline {subsubsection}{Output Values}{147}{section*.118}
+\contentsline {chapter}{\numberline {23}gamma.gee}{149}{chapter.23}
+\contentsline {section}{\numberline {23.1}\texttt {gamma.gee}: Generalized Estimating Equation for Gamma Regression}{149}{section.23.1}
+\contentsline {subsubsection}{Syntax}{149}{section*.122}
+\contentsline {subsubsection}{Additional Inputs}{149}{section*.123}
+\contentsline {subsubsection}{Examples}{151}{section*.124}
+\contentsline {subsubsection}{The Model}{152}{section*.125}
+\contentsline {subsubsection}{Quantities of Interest}{153}{section*.126}
+\contentsline {subsubsection}{Output Values}{154}{section*.127}
+\contentsline {chapter}{\numberline {24}logit.gee}{155}{chapter.24}
+\contentsline {section}{\numberline {24.1}\texttt {logit.gee}: Generalized Estimating Equation for Logistic Regression}{155}{section.24.1}
+\contentsline {subsubsection}{Syntax}{155}{section*.131}
+\contentsline {subsubsection}{Additional Inputs}{155}{section*.132}
+\contentsline {subsubsection}{Examples}{157}{section*.133}
+\contentsline {subsubsection}{The Model}{159}{section*.134}
+\contentsline {subsubsection}{Quantities of Interest}{160}{section*.135}
+\contentsline {subsubsection}{Output Values}{161}{section*.136}
+\contentsline {chapter}{\numberline {25}normal.gee}{163}{chapter.25}
+\contentsline {section}{\numberline {25.1}\texttt {normal.gee}: Generalized Estimating Equation for Normal Regression}{163}{section.25.1}
+\contentsline {subsubsection}{Syntax}{163}{section*.140}
+\contentsline {subsubsection}{Additional Inputs}{163}{section*.141}
+\contentsline {subsubsection}{Examples}{165}{section*.142}
+\contentsline {subsubsection}{The Model}{166}{section*.143}
+\contentsline {subsubsection}{Quantities of Interest}{167}{section*.144}
+\contentsline {subsubsection}{Output Values}{168}{section*.145}
+\contentsline {chapter}{\numberline {26}poisson.gee}{169}{chapter.26}
+\contentsline {section}{\numberline {26.1}\texttt {poisson.gee}: Generalized Estimating Equation for Poisson Regression}{169}{section.26.1}
+\contentsline {subsubsection}{Syntax}{169}{section*.149}
+\contentsline {subsubsection}{Additional Inputs}{169}{section*.150}
+\contentsline {subsubsection}{Examples}{171}{section*.151}
+\contentsline {subsubsection}{The Model}{172}{section*.152}
+\contentsline {subsubsection}{Quantities of Interest}{173}{section*.153}
+\contentsline {subsubsection}{Output Values}{174}{section*.154}
+\contentsline {chapter}{\numberline {27}probit.gee}{175}{chapter.27}
+\contentsline {section}{\numberline {27.1}\texttt {probit.gee}: Generalized Estimating Equation for Probit Regression}{175}{section.27.1}
+\contentsline {subsubsection}{Syntax}{175}{section*.158}
+\contentsline {subsubsection}{Additional Inputs}{175}{section*.159}
+\contentsline {subsubsection}{Examples}{177}{section*.160}
+\contentsline {subsubsection}{The Model}{179}{section*.161}
+\contentsline {subsubsection}{Quantities of Interest}{180}{section*.162}
+\contentsline {subsubsection}{Output Values}{181}{section*.163}
+\contentsline {chapter}{\numberline {28}bprobit}{183}{chapter.28}
+\contentsline {section}{\numberline {28.1}{\tt bprobit}: Bivariate Logistic Regression for Two Dichotomous Dependent Variables}{183}{section.28.1}
+\contentsline {subsubsection}{Syntax}{183}{section*.167}
+\contentsline {subsubsection}{Input Values}{183}{section*.168}
+\contentsline {subsubsection}{Examples}{184}{section*.169}
+\contentsline {subsubsection}{Model}{186}{section*.170}
+\contentsline {subsubsection}{Quantities of Interest}{187}{section*.171}
+\contentsline {subsubsection}{Output Values}{188}{section*.172}
+\contentsline {chapter}{\numberline {29}blogit}{191}{chapter.29}
+\contentsline {section}{\numberline {29.1}{\tt blogit}: Bivariate Logistic Regression for Two Dichotomous Dependent Variables}{191}{section.29.1}
+\contentsline {subsubsection}{Syntax}{191}{section*.176}
+\contentsline {subsubsection}{Input Values}{191}{section*.177}
+\contentsline {subsubsection}{Examples}{192}{section*.178}
+\contentsline {subsubsection}{Model}{194}{section*.179}
+\contentsline {subsubsection}{Quantities of Interest}{195}{section*.180}
+\contentsline {subsubsection}{Output Values}{196}{section*.181}
+\contentsline {chapter}{\numberline {30}ologit}{199}{chapter.30}
+\contentsline {section}{\numberline {30.1}{\tt ologit}: Ordinal Logistic Regression for Ordered Categorical Dependent Variables}{199}{section.30.1}
+\contentsline {subsubsection}{Syntax}{199}{section*.185}
+\contentsline {subsubsection}{Example}{199}{section*.186}
+\contentsline {subsubsection}{Model}{200}{section*.187}
+\contentsline {subsubsection}{Quantities of Interest}{201}{section*.188}
+\contentsline {subsubsection}{Output Values}{201}{section*.189}
+\contentsline {chapter}{\numberline {31}oprobit}{203}{chapter.31}
+\contentsline {section}{\numberline {31.1}{\tt oprobit}: Ordinal Probit Regression for Ordered Categorical Dependent Variables}{203}{section.31.1}
+\contentsline {subsubsection}{Syntax}{203}{section*.193}
+\contentsline {subsubsection}{Example}{203}{section*.194}
+\contentsline {subsubsection}{Model}{205}{section*.195}
+\contentsline {subsubsection}{Quantities of Interest}{206}{section*.196}
+\contentsline {subsubsection}{Output Values}{207}{section*.197}
+\contentsline {chapter}{\numberline {32}gamma.survey}{209}{chapter.32}
+\contentsline {section}{\numberline {32.1}{\tt gamma.survey}: Survey-Weighted Gamma Regression for Continuous, Positive Dependent Variables}{209}{section.32.1}
+\contentsline {subsubsection}{Syntax}{210}{section*.201}
+\contentsline {subsubsection}{Additional Inputs}{210}{section*.202}
+\contentsline {subsubsection}{Examples}{211}{section*.203}
+\contentsline {subsubsection}{Model}{214}{section*.204}
+\contentsline {subsubsection}{Variance}{214}{section*.205}
+\contentsline {subsubsection}{Quantities of Interest}{215}{section*.206}
+\contentsline {subsubsection}{Output Values}{215}{section*.207}
+\contentsline {chapter}{\numberline {33}logit.survey}{217}{chapter.33}
+\contentsline {section}{\numberline {33.1}{\tt logit.survey}: Survey-Weighted Logistic Regression for Dichotomous Dependent Variables}{217}{section.33.1}
+\contentsline {subsubsection}{Syntax}{218}{section*.211}
+\contentsline {subsubsection}{Additional Inputs}{218}{section*.212}
+\contentsline {subsubsection}{Examples}{219}{section*.213}
+\contentsline {subsubsection}{Model}{222}{section*.214}
+\contentsline {subsubsection}{Variance}{223}{section*.215}
+\contentsline {subsubsection}{Quantities of Interest}{223}{section*.216}
+\contentsline {subsubsection}{Output Values}{224}{section*.217}
+\contentsline {chapter}{\numberline {34}normal.survey}{227}{chapter.34}
+\contentsline {section}{\numberline {34.1}{\tt normal.survey}: Survey-Weighted Normal Regression for Continuous Dependent Variables}{227}{section.34.1}
+\contentsline {subsubsection}{Syntax}{228}{section*.221}
+\contentsline {subsubsection}{Additional Inputs}{228}{section*.222}
+\contentsline {subsubsection}{Examples}{229}{section*.223}
+\contentsline {subsubsection}{Model}{232}{section*.224}
+\contentsline {subsubsection}{Variance}{232}{section*.225}
+\contentsline {subsubsection}{Quantities of Interest}{233}{section*.226}
+\contentsline {subsubsection}{Output Values}{233}{section*.227}
+\contentsline {chapter}{\numberline {35}poisson.survey}{235}{chapter.35}
+\contentsline {section}{\numberline {35.1}{\tt poisson.survey}: Survey-Weighted Poisson Regression for Event Count Dependent Variables}{235}{section.35.1}
+\contentsline {subsubsection}{Syntax}{236}{section*.231}
+\contentsline {subsubsection}{Additional Inputs}{236}{section*.232}
+\contentsline {subsubsection}{Examples}{237}{section*.233}
+\contentsline {subsubsection}{Model}{240}{section*.234}
+\contentsline {subsubsection}{Variance}{240}{section*.235}
+\contentsline {subsubsection}{Quantities of Interest}{241}{section*.236}
+\contentsline {subsubsection}{Output Values}{241}{section*.237}
+\contentsline {chapter}{\numberline {36}probit.survey}{243}{chapter.36}
+\contentsline {section}{\numberline {36.1}{\tt probit.survey}: Survey-Weighted Probit Regression for Dichotomous Dependent Variables}{243}{section.36.1}
+\contentsline {subsubsection}{Syntax}{244}{section*.241}
+\contentsline {subsubsection}{Additional Inputs}{244}{section*.242}
+\contentsline {subsubsection}{Examples}{245}{section*.243}
+\contentsline {subsubsection}{Model}{248}{section*.244}
+\contentsline {subsubsection}{Variance}{248}{section*.245}
+\contentsline {subsubsection}{Quantities of Interest}{249}{section*.246}
+\contentsline {subsubsection}{Output Values}{249}{section*.247}
+\contentsline {part}{VI\hspace {1em}Appendix}{253}{part.6}
+\contentsline {chapter}{\numberline {37}FAQ}{255}{chapter.37}
+\contentsline {section}{\numberline {37.1}For All Zelig Users}{255}{section.37.1}
+\contentsline {section}{\numberline {37.2}For Zelig Contributors}{258}{section.37.2}
+\contentsline {chapter}{\numberline {38}What's New?}{261}{chapter.38}
+\contentsline {section}{\numberline {38.1}What's New: Zelig Release Notes}{261}{section.38.1}
+\contentsline {section}{\numberline {38.2}What's Next?}{268}{section.38.2}

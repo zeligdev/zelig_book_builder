@@ -1,8 +1,6 @@
 # directories
 DIR1 := $(shell echo `mktemp -d zelig_XXXX`)
 FINAL_DIR := $(shell echo `mktemp -d zelig_XXXXXX`)
-BUILD_DIR := $(shell echo `mktemp -d build_XXXXXX`)
-BUILD_DIR2 = $(strip $(BUILD_DIR))
 STATIC = static
 #BIBDIR := $(shell echo `mktemp -d bib_XXXX`)
 #DIR2 := $(shell echo `mktemp -d make_docs_XXX`)
@@ -22,7 +20,6 @@ all:
 	Rscript copy_and_process.R $(FINAL_DIR)
 	Rscript model_sweaver.R $(DIR1) $(CONF)
 	ln -f $(STATIC)/*.tex $(FINAL_DIR)/.
-	ln -f $(STATIC)/*.tex $(BUILD_DIR)/.
 	ln -f $(STATIC)/*.tex $(DIR1)/.
 	echo -n > $(TOC)
 	cat $(BEGINNING) >> $(TOC)
@@ -36,3 +33,5 @@ all:
 	cp .Makefile $(FINAL_DIR)/.Makefile
 	make -i -C $(FINAL_DIR) -f .Makefile
 	cp $(FINAL_DIR)/$(DEST) ../.
+clean:
+	rm -fr zelig_* build_*

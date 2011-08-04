@@ -172,23 +172,6 @@ has.zelig2 <- function(pkg) {
 }
 
 
-# @package: a character-string representing a package name
-# return: whether the package lists Zelig as a dependency
-#         in its DESCRIPTION file
-depends.on.zelig <- function(package="") {
-  #
-  zcomp <- packageDescription(package, fields="Depends")
-
-  if (is.na(zcomp))
-    return(FALSE)
-
-  zcomp <- unlist(strsplit(zcomp, " *, *"))
-
-
-  "Zelig" %in% zcomp
-}
-
-
 # return: list of all zelig-dependent packages
 list.zelig.dependent.packages <- function() 
   Filter(depends.on.zelig, .packages(all.available=TRUE))

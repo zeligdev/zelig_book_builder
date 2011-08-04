@@ -1,0 +1,3636 @@
+This is pdfeTeX, Version 3.141592-1.21a-2.2 (Web2C 7.5.4) (format=pdflatex 2011.6.15)  4 AUG 2011 10:11
+entering extended mode
+**zelig
+(./zelig.tex
+LaTeX2e <2003/12/01>
+Babel <v3.8d> and hyphenation patterns for american, french, german, ngerman, b
+ahasa, basque, bulgarian, catalan, croatian, czech, danish, dutch, esperanto, e
+stonian, finnish, greek, icelandic, irish, italian, latin, magyar, norsk, polis
+h, portuges, romanian, russian, serbian, slovak, slovene, spanish, swedish, tur
+kish, ukrainian, nohyphenation, loaded.
+(/usr/share/texmf/tex/latex/base/book.cls
+Document Class: book 2004/02/16 v1.4f Standard LaTeX document class
+(/usr/share/texmf/tex/latex/base/bk10.clo
+File: bk10.clo 2004/02/16 v1.4f Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (./Code.sty
+(/usr/share/texmf/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 1998/07/17
+
+Style option: `fancyvrb' v2.6, with DG/SPQR fixes <1998/07/17> (tvz)
+(/usr/share/texmf/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+\FV@CodeLineNo=\count88
+\FV@InFile=\read1
+\FV@TabBox=\box26
+\c@FancyVerbLine=\count89
+\FV@StepNumber=\count90
+\FV@OutFile=\write3
+
+No file fancyvrb.cfg.
+)) (/usr/share/texmf/tex/latex/natbib/bibentry.sty
+Package: bibentry 2000/06/20 1.4 (PWD)
+)
+(/usr/share/texmf/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/graphics.sty
+Package: graphics 2001/07/07 v1.0n Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texmf/tex/latex/graphics/graphics.cfg
+File: graphics.cfg 2005/02/03 v1.3 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 80.
+
+(/usr/share/texmf/tex/latex/graphics/pdftex.def
+File: pdftex.def 2002/06/19 v0.03k graphics/color for pdftex
+\Gread@gobject=\count91
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/share/texmf/tex/latex/natbib/natbib.sty
+Package: natbib 2003/06/06 7.1 (PWD)
+\bibhang=\skip43
+\bibsep=\skip44
+LaTeX Info: Redefining \cite on input line 518.
+\c@NAT@ctr=\count92
+)
+(/usr/share/texmf/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip45
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texmf/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks15
+\ex@=\dimen105
+))
+(/usr/share/texmf/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen106
+)
+(/usr/share/texmf/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count93
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count94
+\leftroot@=\count95
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count96
+\DOTSCASE@=\count97
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen107
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count98
+\c@MaxMatrixCols=\count99
+\dotsspace@=\muskip10
+\c@parentequation=\count100
+\dspbrk@lvl=\count101
+\tag@help=\toks16
+\row@=\count102
+\column@=\count103
+\maxfields@=\count104
+\andhelp@=\toks17
+\eqnshift@=\dimen108
+\alignsep@=\dimen109
+\tagshift@=\dimen110
+\tagwidth@=\dimen111
+\totwidth@=\dimen112
+\lineht@=\dimen113
+\@envbody=\toks18
+\multlinegap=\skip46
+\multlinetaggap=\skip47
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(/usr/share/texmf/tex/latex/html/url.sty
+Package: url 1999/03/02  ver 1.4  Verb mode for urls, email addresses, and file
+ names
+) (./Zelig.sty
+(/usr/share/texmf/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2003/11/30 v6.74m Hypertext links for LaTeX
+\@linkdim=\dimen114
+\Hy@linkcounter=\count105
+\Hy@pagecounter=\count106
+
+(/usr/share/texmf/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2003/11/30 v6.74m Hyperref: PDFDocEncoding definition (HO)
+)
+(/usr/share/texmf/tex/latex/hyperref/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive and teTeX
+)
+Package hyperref Info: Hyper figures OFF on input line 1880.
+Package hyperref Info: Link nesting OFF on input line 1885.
+Package hyperref Info: Hyper index ON on input line 1888.
+Package hyperref Info: Plain pages ON on input line 1893.
+Package hyperref Info: Backreferencing OFF on input line 1900.
+
+Implicit mode ON; LaTeX internals redefined
+Package hyperref Info: Bookmarks ON on input line 2004.
+LaTeX Info: Redefining \url on input line 2143.
+\Fld@menulength=\count107
+\Field@Width=\dimen115
+\Fld@charsize=\dimen116
+\Choice@toks=\toks20
+\Field@toks=\toks21
+Package hyperref Info: Hyper figures OFF on input line 2618.
+Package hyperref Info: Link nesting OFF on input line 2623.
+Package hyperref Info: Hyper index ON on input line 2626.
+Package hyperref Info: backreferencing OFF on input line 2633.
+Package hyperref Info: Link coloring OFF on input line 2638.
+\c@Item=\count108
+\c@Hfootnote=\count109
+)
+*hyperref using default driver hpdftex*
+(/usr/share/texmf/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2003/11/30 v6.74m Hyperref driver for pdfTeX
+
+(/usr/share/texmf/tex/latex/psnfss/pifont.sty
+Package: pifont 2004/09/15 PSNFSS-v9.2 Pi font support (SPQR) 
+LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
+
+(/usr/share/texmf/tex/latex/psnfss/upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Try loading font information for U+psy on input line 64.
+
+(/usr/share/texmf/tex/latex/psnfss/upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+))
+\Fld@listcount=\count110
+\@outlinefile=\write4
+))
+(/usr/share/texmf/tex/generic/xypic/xy.sty
+(/usr/share/texmf/tex/generic/xypic/xy.tex Bootstrap'ing: catcodes, docmode,
+(/usr/share/texmf/tex/generic/xypic/xyrecat.tex)
+(/usr/share/texmf/tex/generic/xypic/xyidioms.tex)
+
+ Xy-pic version 3.7 <1999/02/16>
+ Copyright (c) 1991-1998 by Kristoffer H. Rose <krisrose@ens-lyon.fr>
+ Xy-pic is free software: see the User's Guide for details.
+
+Loading kernel: messages; fonts; allocations: state,
+\X@c=\dimen117
+\Y@c=\dimen118
+\U@c=\dimen119
+\D@c=\dimen120
+\L@c=\dimen121
+\R@c=\dimen122
+\Edge@c=\toks22
+\X@p=\dimen123
+\Y@p=\dimen124
+\U@p=\dimen125
+\D@p=\dimen126
+\L@p=\dimen127
+\R@p=\dimen128
+\Edge@p=\toks23
+\X@origin=\dimen129
+\Y@origin=\dimen130
+\X@xbase=\dimen131
+\Y@xbase=\dimen132
+\X@ybase=\dimen133
+\Y@ybase=\dimen134
+\X@min=\dimen135
+\Y@min=\dimen136
+\X@max=\dimen137
+\Y@max=\dimen138
+\lastobjectbox@=\box29
+\zerodotbox@=\box30
+\almostz@=\dimen139
+ direction,
+\d@X=\dimen140
+\d@Y=\dimen141
+\K@=\count111
+\KK@=\count112
+\Direction=\count113
+\K@dXdY=\dimen142
+\K@dYdX=\dimen143
+\xyread@=\read2
+\xywrite@=\write5
+\csp@=\count114
+\quotPTK@=\dimen144
+
+utility macros; pictures: \xy, positions,
+\swaptoks@@=\toks24
+\connectobjectbox@@=\box31
+ objects,
+\styletoks@=\toks25
+ decorations;
+kernel objects: directionals, circles, text; options; algorithms: directions,
+edges, connections;  Xy-pic loaded)
+Package: xy 1999/02/16 Xy-pic version 3.7
+
+(/usr/share/texmf/tex/generic/xypic/xyall.tex
+ Xy-pic option: All features v.3.3
+(/usr/share/texmf/tex/generic/xypic/xycurve.tex
+ Xy-pic option: Curve and Spline extension v.3.7 curve,
+\crv@cnt@=\count115
+\crvpts@=\toks26
+\splinebox@=\box32
+\splineval@=\dimen145
+\splinedepth@=\dimen146
+\splinetol@=\dimen147
+\splinelength@=\dimen148
+ circles,
+\L@=\dimen149
+ loaded)
+(/usr/share/texmf/tex/generic/xypic/xyframe.tex
+ Xy-pic option: Frame and Bracket extension v.3.7 loaded)
+(/usr/share/texmf/tex/generic/xypic/xycmtip.tex
+ Xy-pic option: Computer Modern tip extension v.3.3
+(/usr/share/texmf/tex/generic/xypic/xytips.tex
+ Xy-pic option: More Tips extension v.3.3 loaded) loaded)
+(/usr/share/texmf/tex/generic/xypic/xyline.tex
+ Xy-pic option: Line styles extension v.3.6
+\xylinethick@=\dimen150
+ loaded)
+(/usr/share/texmf/tex/generic/xypic/xyrotate.tex
+ Xy-pic option: Rotate and Scale extension v.3.3 loaded)
+(/usr/share/texmf/tex/generic/xypic/xycolor.tex
+ Xy-pic option: Colour extension v.3.3 loaded)
+(/usr/share/texmf/tex/generic/xypic/xymatrix.tex
+ Xy-pic option: Matrix feature v.3.4
+\Row=\count116
+\Col=\count117
+\queue@=\toks27
+\queue@@=\toks28
+\qcount@=\count118
+\qcount@@=\count119
+\matrixsize@=\count120
+ loaded)
+(/usr/share/texmf/tex/generic/xypic/xyarrow.tex
+ Xy-pic option: Arrow and Path feature v.3.5 path, \ar, loaded)
+(/usr/share/texmf/tex/generic/xypic/xygraph.tex
+ Xy-pic option: Graph feature v.3.7 loaded) loaded))
+(/nfs/home/M/mowen/texmf/tex/Sweave.sty
+Package: Sweave 
+
+(/usr/share/texmf/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texmf/tex/latex/upquote/upquote.sty
+Package: upquote 2003/08/11 v1.1 Covington's upright-quote modification to verb
+atim and verb
+
+(/usr/share/texmf/tex/latex/base/textcomp.sty
+Package: textcomp 2004/02/22 v1.99f Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
+
+(/usr/share/texmf/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 266.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 281.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 282.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 283.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 284.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 285.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 286.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 287.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 288.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 289.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 290.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 291.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 292.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 293.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 294.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 295.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 296.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 297.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 298.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 299.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 300.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 301.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 302.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 303.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 304.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 305.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 306.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 308.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 309.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 310.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 311.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 312.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 313.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 314.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 315.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 316.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 317.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 318.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 319.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 320.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 321.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 322.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 323.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 324.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 325.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 326.
+))
+(/usr/share/texmf/tex/latex/base/fontenc.sty
+Package: fontenc 2004/02/22 v1.99f Standard LaTeX package
+
+(/usr/share/texmf/tex/latex/base/t1enc.def
+File: t1enc.def 2004/02/22 v1.99f Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+(/usr/share/texmf/tex/latex/ae/ae.sty
+Package: ae 2001/02/12 1.3 Almost European Computer Modern
+
+(/usr/share/texmf/tex/latex/base/fontenc.sty
+Package: fontenc 2004/02/22 v1.99f Standard LaTeX package
+
+(/usr/share/texmf/tex/latex/base/t1enc.def
+File: t1enc.def 2004/02/22 v1.99f Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+)
+LaTeX Font Info:    Try loading font information for T1+aer on input line 100.
+
+(/usr/share/texmf/tex/latex/ae/t1aer.fd
+File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
+))))
+(/usr/share/texmf/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2002/01/22 v2.2d
+
+(/usr/share/texmf/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2001/10/25 v2.2f
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 132.
+))
+(/usr/share/texmf/tex/latex/tools/verbatim.sty
+Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks29
+\verbatim@line=\toks30
+\verbatim@in@stream=\read3
+)
+(/usr/share/texmf/tex/generic/epsf/epsf.tex
+This is `epsf.tex' v2.7k <10 July 1997>
+\epsffilein=\read4
+\epsfframemargin=\dimen151
+\epsfframethickness=\dimen152
+\epsfrsize=\dimen153
+\epsftmp=\dimen154
+\epsftsize=\dimen155
+\epsfxsize=\dimen156
+\epsfysize=\dimen157
+\pspoints=\dimen158
+\epsfnoopenhelp=\toks31
+) (/usr/share/texmf/tex/latex/html/html.sty
+Package: html 1999/07/19 v1.38 hypertext commands for latex2html (nd, hws, rrm)
+
+\c@lpart=\count121
+\c@lchapter=\count122
+\c@lsection=\count123
+\c@lsubsection=\count124
+\c@lsubsubsection=\count125
+\c@lparagraph=\count126
+\c@lsubparagraph=\count127
+\c@lsubsubparagraph=\count128
+\ptrfile=\write6
+)
+(/usr/share/texmf/tex/latex/tools/dcolumn.sty
+Package: dcolumn 2001/05/28 v1.06 decimal alignment package (DPC)
+
+(/usr/share/texmf/tex/latex/tools/array.sty
+Package: array 2003/12/17 v2.4a Tabular extension package (FMi)
+\col@sep=\dimen159
+\extrarowheight=\dimen160
+\NC@list=\toks32
+\extratabsurround=\skip48
+\backup@length=\skip49
+))
+(/usr/share/texmf/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen161
+)
+(/usr/share/texmf/tex/latex/preprint/fullpage.sty
+Package: fullpage 1999/02/23 1.1 (PWD)
+\FP@margin=\skip50
+)
+(/usr/share/texmf/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+) (./zelig.aux
+
+LaTeX Warning: Label `fig:plotgam' multiply defined.
+
+
+LaTeX Warning: Label `fig:plotgam' multiply defined.
+
+
+LaTeX Warning: Label `fig:plotgam' multiply defined.
+
+
+LaTeX Warning: Label `fig:plotgam' multiply defined.
+
+
+LaTeX Warning: Label `fig:plotgam' multiply defined.
+
+
+LaTeX Warning: Label `fig:plotgam' multiply defined.
+
+
+LaTeX Warning: Label `fig:plotgam' multiply defined.
+
+
+LaTeX Warning: Label `fig:plotgam' multiply defined.
+
+
+LaTeX Warning: Label `fig:plotgam' multiply defined.
+
+
+LaTeX Warning: Label `fig:plotgam' multiply defined.
+
+
+LaTeX Warning: Label `fig:plotgam' multiply defined.
+
+)
+\openout1 = `zelig.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 47.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 47.
+ (/usr/share/texmf/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 47.
+
+(/usr/share/texmf/tex/context/base/supp-pdf.tex
+(/usr/share/texmf/tex/context/base/supp-mis.tex
+loading : Context Support Macros / Miscellaneous (2004.10.26)
+\protectiondepth=\count129
+\scratchcounter=\count130
+\scratchtoks=\toks33
+\scratchdimen=\dimen162
+\scratchskip=\skip51
+\scratchmuskip=\muskip11
+\scratchbox=\box33
+\scratchread=\read5
+\scratchwrite=\write7
+\zeropoint=\dimen163
+\onepoint=\dimen164
+\onebasepoint=\dimen165
+\minusone=\count131
+\thousandpoint=\dimen166
+\onerealpoint=\dimen167
+\emptytoks=\toks34
+\nextbox=\box34
+\nextdepth=\dimen168
+\everyline=\toks35
+\!!counta=\count132
+\!!countb=\count133
+\recursecounter=\count134
+)
+loading : Context Support Macros / PDF (2004.03.26)
+\nofMPsegments=\count135
+\nofMParguments=\count136
+\MPscratchCnt=\count137
+\MPscratchDim=\dimen169
+\MPnumerator=\count138
+\everyMPtoPDFconversion=\toks36
+)
+Package hyperref Info: Link coloring OFF on input line 47.
+ (/usr/share/texmf/tex/latex/hyperref/nameref.sty
+Package: nameref 2003/12/03 v2.21 Cross-referencing by name of section
+\c@section@level=\count139
+)
+LaTeX Info: Redefining \ref on input line 47.
+LaTeX Info: Redefining \pageref on input line 47.
+ (./zelig.out) (./zelig.out)
+\openout4 = `zelig.out'.
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 49.
+(/usr/share/texmf/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2002/01/19 v2.2g AMS font definitions
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 49.
+
+(/usr/share/texmf/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2002/01/19 v2.2g AMS font definitions
+)
+LaTeX Font Info:    Try loading font information for T1+aett on input line 49.
+
+(/usr/share/texmf/tex/latex/ae/t1aett.fd
+File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
+) [1
+
+
+{/usr/share/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
+
+] (./zelig.toc [3] [4] [5] [6])
+\tf@toc=\write8
+\openout8 = `zelig.toc'.
+
+ [7] [8
+
+] [9] [10]
+Chapter 1.
+(./intro.tex [11
+
+]) [12]
+Chapter 2.
+(./install.tex
+LaTeX Font Info:    Try loading font information for TS1+aer on input line 48.
+LaTeX Font Info:    No file TS1aer.fd. on input line 48.
+
+
+LaTeX Font Warning: Font shape `TS1/aer/m/n' undefined
+(Font)              using `TS1/cmr/m/n' instead
+(Font)              for symbol `textbullet' on input line 48.
+
+[13
+
+] [14]) [15] [16
+
+] [17] [18]
+Chapter 3.
+(./programmingstatements.tex
+LaTeX Font Info:    Try loading font information for TS1+aett on input line 41.
+
+LaTeX Font Info:    No file TS1aett.fd. on input line 41.
+
+
+LaTeX Font Warning: Font shape `TS1/aett/m/n' undefined
+(Font)              using `TS1/cmr/m/n' instead
+(Font)              for symbol `textquotesingle' on input line 41.
+
+[19
+
+] [20] [21]) [22]
+Chapter 4.
+(./syntax.tex [23
+
+]
+Overfull \hbox (5.99126pt too wide) in paragraph at lines 74--77
+[]\T1/aer/m/n/10 Names can-not be-gin with num-bers. For ex-am-ple, R will not 
+let you save an ob-ject as \T1/aett/m/n/10 1997.election
+ []
+
+[24] [25] [26] [27] [28] [29] [30]) [31] [32
+
+]
+Chapter 5.
+(./robjects.tex [33] [34] [35] [36] [37]) [38] [39
+
+] [40]
+Chapter 6.
+(./Zcommands.tex <xymatrix 3x5 368> [41
+
+] [42] [43]
+Overfull \hbox (0.64418pt too wide) in paragraph at lines 222--224
+[]\T1/aett/m/n/10 x.out <- setx(z.out, fn = list(numeric = mean, ordered = medi
+an, others = mode), data
+ []
+
+[44] [45]
+Overfull \hbox (11.12416pt too wide) in paragraph at lines 372--374
+[]\T1/aett/m/n/10 s.out <- sim(z.out, x = x.out, x1 = NULL, num = c(1000, 100),
+ bootstrap = FALSE, bootfn
+ []
+
+[46]
+Overfull \hbox (36.19414pt too wide) in paragraph at lines 506--509
+[]\T1/aett/m/n/10 "blogit"\T1/aer/m/n/10 : The \T1/aer/m/it/10 bi-vari-ate lo-g
+is-tic \T1/aer/m/n/10 model mod-els $[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Y[] \O
+T1/cmr/m/n/10 = \OML/cmm/m/it/10 y[]; Y[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 y[
+]\OT1/cmr/m/n/10 )$ \T1/aer/m/n/10 for $\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 y[]; 
+y[]\OT1/cmr/m/n/10 ) = []$
+ []
+
+
+Overfull \hbox (36.47427pt too wide) in paragraph at lines 509--512
+[]\T1/aett/m/n/10 "bprobit"\T1/aer/m/n/10 : The \T1/aer/m/it/10 bi-vari-ate pro
+-bit \T1/aer/m/n/10 model mod-els $[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Y[] \OT1
+/cmr/m/n/10 = \OML/cmm/m/it/10 y[]; Y[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 y[]\
+OT1/cmr/m/n/10 )$ \T1/aer/m/n/10 for $\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 y[]; y[
+]\OT1/cmr/m/n/10 ) = []$
+ []
+
+[47] [48]) [49] [50
+
+]
+Chapter 7.
+(./graphs.tex
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[51] [52] [53] <figs/sample1.pdf, id=1344, 451.6875pt x 289.08pt>
+File: figs/sample1.pdf Graphic file (type pdf)
+
+<use figs/sample1.pdf> [54 <./figs/sample1.pdf>]
+<figs/sample2.pdf, id=1358, 325.215pt x 252.945pt>
+File: figs/sample2.pdf Graphic file (type pdf)
+ <use figs/sample2.pdf>
+[55 <./figs/sample2.pdf>] <figs/ternary.pdf, id=1373, 289.08pt x 289.08pt>
+File: figs/ternary.pdf Graphic file (type pdf)
+
+<use figs/ternary.pdf> [56 <./figs/ternary.pdf>]
+<figs/roc.pdf, id=1388, 289.08pt x 289.08pt>
+File: figs/roc.pdf Graphic file (type pdf)
+ <use figs/roc.pdf> [57 <./figs/roc.pdf>] <figs/vertci.pdf, id=1405, 433.62pt x
+ 289.08pt>
+File: figs/vertci.pdf Graphic file (type pdf)
+ <use figs/vertci.pdf>)
+[58 <./figs/vertci.pdf>] [59
+
+] [60]
+Chapter 8.
+(./quickstart.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 41.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@encoding' on input line 41.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<let>-command' on input line 41.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 41.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@family' on input line 41.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 41.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@series' on input line 41.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 41.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@shape' on input line 41.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 41.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\font@name' on input line 41.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\T1/aett/m/n/14.4' on input line 41.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\ignorespaces' on input line 41.
+
+[61
+
+]
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 58.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@encoding' on input line 58.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<let>-command' on input line 58.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 58.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@family' on input line 58.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 58.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@series' on input line 58.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 58.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@shape' on input line 58.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 58.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\font@name' on input line 58.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\T1/aett/m/n/12' on input line 58.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\ignorespaces' on input line 58.
+
+
+Overfull \hbox (19.37117pt too wide) in paragraph at lines 106--107
+[]\T1/aer/m/n/10 specifies that all ad-di-tional, op-tional pa-ram-e-ters not s
+pec-i-fied in the sig-na-ture of the \T1/aett/m/n/10 zelig2model_function
+ []
+
+[62]
+Overfull \hbox (46.05983pt too wide) in paragraph at lines 160--161
+[]\T1/aer/m/n/10 Specify that the pa-ram-e-ters \T1/aett/m/n/10 family \T1/aer/
+m/n/10 and \T1/aett/m/n/10 model \T1/aer/m/it/10 al-ways \T1/aer/m/n/10 be give
+n the cor-re-spond-ing val-ues - \T1/aett/m/n/10 binomial(link="logit")
+ []
+
+[63]
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 239.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@encoding' on input line 239.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<let>-command' on input line 239.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 239.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@family' on input line 239.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 239.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@series' on input line 239.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 239.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@shape' on input line 239.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 239.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\font@name' on input line 239.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\T1/aett/m/n/12' on input line 239.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\ignorespaces' on input line 239.
+
+[64] [65]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [66]
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 364.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@encoding' on input line 364.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<let>-command' on input line 364.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 364.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@family' on input line 364.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 364.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@series' on input line 364.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 364.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@shape' on input line 364.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 364.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\font@name' on input line 364.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\T1/aett/m/n/12' on input line 364.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\ignorespaces' on input line 364.
+
+[67]
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 382.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@encoding' on input line 382.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<let>-command' on input line 382.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 382.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@family' on input line 382.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 382.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@series' on input line 382.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 382.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@shape' on input line 382.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 382.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\font@name' on input line 382.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\T1/aett/m/n/12' on input line 382.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\ignorespaces' on input line 382.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 395.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@encoding' on input line 395.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<let>-command' on input line 395.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 395.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@family' on input line 395.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 395.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@series' on input line 395.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 395.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@shape' on input line 395.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 395.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\font@name' on input line 395.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\T1/aett/m/n/12' on input line 395.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\ignorespaces' on input line 395.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 415.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@encoding' on input line 415.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<let>-command' on input line 415.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 415.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@family' on input line 415.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 415.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@series' on input line 415.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 415.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@shape' on input line 415.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 415.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\font@name' on input line 415.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\T1/aett/m/n/12' on input line 415.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\ignorespaces' on input line 415.
+
+
+Underfull \vbox (badness 6204) has occurred while \output is active []
+
+ [68]
+[69]
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 511.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@encoding' on input line 511.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<let>-command' on input line 511.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 511.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@family' on input line 511.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 511.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@series' on input line 511.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 511.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@shape' on input line 511.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 511.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\font@name' on input line 511.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\T1/aett/m/n/12' on input line 511.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\ignorespaces' on input line 511.
+
+) [70]
+Chapter 9.
+(./zelig2.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 40.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@encoding' on input line 40.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<let>-command' on input line 40.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 40.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@family' on input line 40.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 40.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@series' on input line 40.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 40.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@shape' on input line 40.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 40.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\font@name' on input line 40.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\T1/aett/m/n/14.4' on input line 40.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\ignorespaces' on input line 40.
+
+[71
+
+]
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 64.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@encoding' on input line 64.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<let>-command' on input line 64.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 64.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@family' on input line 64.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 64.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@series' on input line 64.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 64.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@shape' on input line 64.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 64.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\font@name' on input line 64.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\T1/aett/m/n/14.4' on input line 64.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\ignorespaces' on input line 64.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 88.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@encoding' on input line 88.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<let>-command' on input line 88.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 88.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@family' on input line 88.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 88.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@series' on input line 88.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 88.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@shape' on input line 88.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 88.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\font@name' on input line 88.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\T1/aett/m/n/14.4' on input line 88.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\ignorespaces' on input line 88.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 93.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@encoding' on input line 93.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<let>-command' on input line 93.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 93.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@family' on input line 93.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 93.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@series' on input line 93.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 93.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@shape' on input line 93.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 93.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\font@name' on input line 93.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\T1/aett/m/n/14.4' on input line 93.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\ignorespaces' on input line 93.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 109.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@encoding' on input line 109.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<let>-command' on input line 109.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 109.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@family' on input line 109.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 109.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@series' on input line 109.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 109.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@shape' on input line 109.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 109.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\font@name' on input line 109.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\T1/aett/m/n/14.4' on input line 109.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\ignorespaces' on input line 109.
+
+[72]
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 114.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@encoding' on input line 114.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<let>-command' on input line 114.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 114.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@family' on input line 114.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 114.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@series' on input line 114.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 114.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@shape' on input line 114.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 114.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\font@name' on input line 114.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\T1/aett/m/n/12' on input line 114.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\ignorespaces' on input line 114.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 139.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@encoding' on input line 139.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<let>-command' on input line 139.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 139.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@family' on input line 139.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 139.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@series' on input line 139.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 139.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@shape' on input line 139.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 139.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\font@name' on input line 139.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\T1/aett/m/n/12' on input line 139.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\ignorespaces' on input line 139.
+
+) [73] [74
+
+]
+Chapter 10.
+(./parameters.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 15.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@encoding' on input line 15.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<let>-command' on input line 15.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 15.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@family' on input line 15.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 15.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@series' on input line 15.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 15.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@shape' on input line 15.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 15.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\font@name' on input line 15.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\T1/aett/m/n/14.4' on input line 15.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\ignorespaces' on input line 15.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 25.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@encoding' on input line 25.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<let>-command' on input line 25.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 25.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@family' on input line 25.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 25.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@series' on input line 25.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 25.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@shape' on input line 25.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 25.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\font@name' on input line 25.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\T1/aett/m/n/14.4' on input line 25.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\ignorespaces' on input line 25.
+
+[75] [76]) [77] [78
+
+]
+Chapter 11.
+(./qi.tex [79] [80]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [81]
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 159.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@encoding' on input line 159.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<let>-command' on input line 159.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 159.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@family' on input line 159.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 159.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@series' on input line 159.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 159.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@shape' on input line 159.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 159.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\font@name' on input line 159.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\T1/aett/m/n/14.4' on input line 159.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\ignorespaces' on input line 159.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 159.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@encoding' on input line 159.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<let>-command' on input line 159.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 159.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@family' on input line 159.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 159.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@series' on input line 159.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 159.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@shape' on input line 159.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 159.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\font@name' on input line 159.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\T1/aett/m/n/14.4' on input line 159.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\ignorespaces' on input line 159.
+
+) [82] [83
+
+] [84]
+Chapter 12.
+(./gamma.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@encoding' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<let>-command' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@family' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@series' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@shape' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\font@name' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\T1/aett/m/n/14.4' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\ignorespaces' on input line 6.
+
+[85
+
+] [86] <vigpics/gamma-ExamplePlot.pdf, id=1597, 433.62pt x 433.62pt>
+File: vigpics/gamma-ExamplePlot.pdf Graphic file (type pdf)
+
+<use vigpics/gamma-ExamplePlot.pdf>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [87]
+Underfull \hbox (badness 10000) in paragraph at lines 179--181
+
+ []
+
+[88 <./vigpics/gamma-ExamplePlot.pdf>] [89]
+
+Package natbib Warning: Author undefined for citation`VenRip02' 
+(natbib)                on page 90 on input line 294.
+
+
+Package natbib Warning: Author undefined for citation`Zeileis04' 
+(natbib)                on page 90 on input line 297.
+
+) [90]
+Chapter 13.
+(./logit.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@encoding' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<let>-command' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@family' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@series' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@shape' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\font@name' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\T1/aett/m/n/14.4' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\ignorespaces' on input line 7.
+
+[91
+
+] <vigpics/logit-ExamplePlot.pdf, id=1657, 433.62pt x 433.62pt>
+File: vigpics/logit-ExamplePlot.pdf Graphic file (type pdf)
+
+<use vigpics/logit-ExamplePlot.pdf> [92 <./vigpics/logit-ExamplePlot.pdf>]
+<vigpics/logit-FirstDifferencesPlot.pdf, id=1671, 433.62pt x 433.62pt>
+File: vigpics/logit-FirstDifferencesPlot.pdf Graphic file (type pdf)
+
+<use vigpics/logit-FirstDifferencesPlot.pdf> [93 <./vigpics/logit-FirstDifferen
+cesPlot.pdf>] <vigpics/logit-ROCPlot.pdf, id=1684, 433.62pt x 433.62pt>
+File: vigpics/logit-ROCPlot.pdf Graphic file (type pdf)
+
+<use vigpics/logit-ROCPlot.pdf> [94 <./vigpics/logit-ROCPlot.pdf>] [95]
+! pdfTeX warning (ext4): destination with the same identifier (name{cite.ImaLau
+Kin-logit11}) has been already used, duplicate ignored
+<to be read again> 
+                   \penalty 
+l.282 \bibentry{ImaLauKin-logit11}
+                                  
+
+Package natbib Warning: Author undefined for citation`VenRip02' 
+(natbib)                on page 96 on input line 289.
+
+
+Package natbib Warning: Author undefined for citation`Zeileis04' 
+(natbib)                on page 96 on input line 292.
+
+) [96]
+Chapter 14.
+(./ls.tex
+Overfull \hbox (2.63907pt too wide) in paragraph at lines 7--7
+[]\T1/aett/m/n/14.4 ls\T1/aer/bx/n/14.4 : Least Squares Re-gres-sion for Con-ti
+n-u-ous De-pen-dent Vari-
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@encoding' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<let>-command' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@family' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@series' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@shape' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\font@name' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\T1/aett/m/n/14.4' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\ignorespaces' on input line 7.
+
+[97
+
+] <vigpics/ls-ExamplesPlot.pdf, id=1731, 397.485pt x 289.08pt>
+File: vigpics/ls-ExamplesPlot.pdf Graphic file (type pdf)
+
+<use vigpics/ls-ExamplesPlot.pdf> [98 <./vigpics/ls-ExamplesPlot.pdf>]
+<vigpics/ls-DummyPlot.pdf, id=1747, 397.485pt x 289.08pt>
+File: vigpics/ls-DummyPlot.pdf Graphic file (type pdf)
+
+<use vigpics/ls-DummyPlot.pdf> [99 <./vigpics/ls-DummyPlot.pdf>] [100])
+[101] [102
+
+]
+Chapter 15.
+(./negbinom.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@encoding' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<let>-command' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@family' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@series' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@shape' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\font@name' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\T1/aett/m/n/14.4' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\ignorespaces' on input line 8.
+
+[103] <vigpics/negbin-Example1Plot.pdf, id=1794, 433.62pt x 433.62pt>
+File: vigpics/negbin-Example1Plot.pdf Graphic file (type pdf)
+
+<use vigpics/negbin-Example1Plot.pdf> [104 <./vigpics/negbin-Example1Plot.pdf>]
+[105] [106]) [107] [108
+
+]
+Chapter 16.
+(./normal.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@encoding' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<let>-command' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@family' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@series' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@shape' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\font@name' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\T1/aett/m/n/14.4' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\ignorespaces' on input line 5.
+
+[109] <vigpics/normal-ExamplesPlot.pdf, id=1849, 433.62pt x 433.62pt>
+File: vigpics/normal-ExamplesPlot.pdf Graphic file (type pdf)
+
+<use vigpics/normal-ExamplesPlot.pdf>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [110]
+[111 <./vigpics/normal-ExamplesPlot.pdf>]
+Overfull \hbox (6.25746pt too wide) in paragraph at lines 216--218
+[]\T1/aett/m/n/10 fitted.values\T1/aer/m/n/10 : fit-ted val-ues. For the nor-ma
+l model, these are iden-ti-cal to the \T1/aett/m/n/10 linear predictors\T1/aer/
+m/n/10 . 
+ []
+
+[112]
+
+Package natbib Warning: Author undefined for citation`VenRip02' 
+(natbib)                on page 113 on input line 269.
+
+
+Package natbib Warning: Author undefined for citation`Zeileis04' 
+(natbib)                on page 113 on input line 272.
+
+) [113] [114
+
+]
+Chapter 17.
+(./poisson.tex
+Overfull \hbox (4.713pt too wide) in paragraph at lines 5--5
+[]\T1/aett/m/n/14.4 poisson\T1/aer/bx/n/14.4 : Pois-son Re-gres-sion for Event 
+Count De-pen-dent Vari-
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@encoding' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<let>-command' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@family' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@series' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@shape' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\font@name' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\T1/aett/m/n/14.4' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\ignorespaces' on input line 5.
+
+[115] <vigpics/poisson-ExamplePlot.pdf, id=1906, 433.62pt x 433.62pt>
+File: vigpics/poisson-ExamplePlot.pdf Graphic file (type pdf)
+
+<use vigpics/poisson-ExamplePlot.pdf> [116 <./vigpics/poisson-ExamplePlot.pdf>]
+[117]
+
+Package natbib Warning: Author undefined for citation`VenRip02' 
+(natbib)                on page 118 on input line 224.
+
+
+Package natbib Warning: Author undefined for citation`Zeileis04' 
+(natbib)                on page 118 on input line 227.
+
+) [118] [119] [120
+
+]
+Chapter 18.
+(./probit.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@encoding' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<let>-command' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@family' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@series' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@shape' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\font@name' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\T1/aett/m/n/14.4' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\ignorespaces' on input line 6.
+
+[121] [122] [123]
+
+Package natbib Warning: Author undefined for citation`VenRip02' 
+(natbib)                on page 124 on input line 220.
+
+
+Package natbib Warning: Author undefined for citation`Zeileis04' 
+(natbib)                on page 124 on input line 223.
+
+) [124]
+Chapter 19.
+(./logit.gam.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@encoding' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<let>-command' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@family' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@series' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@shape' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\font@name' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\T1/aett/m/n/14.4' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\ignorespaces' on input line 3.
+
+[125
+
+] <vigpics/gam-004.pdf, id=1991, 433.62pt x 433.62pt>
+File: vigpics/gam-004.pdf Graphic file (type pdf)
+
+<use vigpics/gam-004.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<vigpics/gam-006.pdf, id=1992, 867.24pt x 433.62pt>
+File: vigpics/gam-006.pdf Graphic file (type pdf)
+ <use vigpics/gam-006.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<vigpics/gam-008.pdf, id=1993, 867.24pt x 433.62pt>
+File: vigpics/gam-008.pdf Graphic file (type pdf)
+ <use vigpics/gam-008.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[126] [127 <./vigpics/gam-004.pdf>] [128 <./vigpics/gam-006.pdf> <./vigpics/gam
+-008.pdf>] [129]) [130]
+Chapter 20.
+(./normal.gam.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@encoding' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<let>-command' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@family' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@series' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@shape' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\font@name' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\T1/aett/m/n/14.4' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\ignorespaces' on input line 2.
+
+[131
+
+]
+File: vigpics/gam-004.pdf Graphic file (type pdf)
+ <use vigpics/gam-004.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: vigpics/gam-006.pdf Graphic file (type pdf)
+<use vigpics/gam-006.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: vigpics/gam-008.pdf Graphic file (type pdf)
+<use vigpics/gam-008.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[132] [133] [134] [135]) [136]
+Chapter 21.
+(./poisson.gam.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@encoding' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<let>-command' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@family' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@series' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@shape' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\font@name' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\T1/aett/m/n/14.4' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\ignorespaces' on input line 2.
+
+[137
+
+]
+File: vigpics/gam-004.pdf Graphic file (type pdf)
+ <use vigpics/gam-004.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: vigpics/gam-006.pdf Graphic file (type pdf)
+<use vigpics/gam-006.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: vigpics/gam-008.pdf Graphic file (type pdf)
+<use vigpics/gam-008.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[138] [139] [140] [141]) [142]
+Chapter 22.
+(./probit.gam.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@encoding' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<let>-command' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@family' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@series' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@shape' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\font@name' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\T1/aett/m/n/14.4' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\ignorespaces' on input line 2.
+
+[143
+
+]
+File: vigpics/gam-004.pdf Graphic file (type pdf)
+ <use vigpics/gam-004.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: vigpics/gam-006.pdf Graphic file (type pdf)
+<use vigpics/gam-006.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: vigpics/gam-008.pdf Graphic file (type pdf)
+<use vigpics/gam-008.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[144] [145] [146] [147]) [148]
+Chapter 23.
+(./gamma.gee.tex
+
+LaTeX Font Warning: Font shape `T1/aett/bx/n' undefined
+(Font)              using `T1/aett/m/n' instead on input line 4.
+
+
+Package natbib Warning: Author undefined for citation`Zorn01' 
+(natbib)                on page 149 on input line 15.
+
+[149
+
+] [150] <vigpics/gamma_gee-ExamplePlot.pdf, id=2206, 433.62pt x 433.62pt>
+File: vigpics/gamma_gee-ExamplePlot.pdf Graphic file (type pdf)
+
+<use vigpics/gamma_gee-ExamplePlot.pdf> [151] [152 <./vigpics/gamma_gee-Example
+Plot.pdf>] [153]) [154]
+Chapter 24.
+(./logit.gee.tex
+
+Package natbib Warning: Author undefined for citation`Zorn01' 
+(natbib)                on page 155 on input line 16.
+
+[155
+
+] [156] <vigpics/logit_gee-ExamplePlot.pdf, id=2257, 433.62pt x 433.62pt>
+File: vigpics/logit_gee-ExamplePlot.pdf Graphic file (type pdf)
+
+<use vigpics/logit_gee-ExamplePlot.pdf> [157]
+<vigpics/logit_gee-FirstDifferencePlot.pdf, id=2265, 433.62pt x 433.62pt>
+File: vigpics/logit_gee-FirstDifferencePlot.pdf Graphic file (type pdf)
+
+<use vigpics/logit_gee-FirstDifferencePlot.pdf>
+Underfull \vbox (badness 3861) has occurred while \output is active []
+
+ [158 <./vigpics/logit_gee-ExamplePlot.pdf>] [159 <./vigpics/logit_gee-FirstDif
+ferencePlot.pdf>] [160] [161]) [162]
+Chapter 25.
+(./normal.gee.tex
+
+Package natbib Warning: Author undefined for citation`Zorn01' 
+(natbib)                on page 163 on input line 15.
+
+[163
+
+] [164] <vigpics/normal_gee-ExamplePlot.pdf, id=2324, 433.62pt x 433.62pt>
+File: vigpics/normal_gee-ExamplePlot.pdf Graphic file (type pdf)
+
+<use vigpics/normal_gee-ExamplePlot.pdf> [165] [166 <./vigpics/normal_gee-Examp
+lePlot.pdf>] [167]) [168]
+Chapter 26.
+(./poisson.gee.tex
+
+Package natbib Warning: Author undefined for citation`Zorn01' 
+(natbib)                on page 169 on input line 17.
+
+[169
+
+] [170]
+<vigpics/poisson_gee-ExamplePlot.pdf, id=2372, 433.62pt x 433.62pt>
+File: vigpics/poisson_gee-ExamplePlot.pdf Graphic file (type pdf)
+
+<use vigpics/poisson_gee-ExamplePlot.pdf> [171] [172 <./vigpics/poisson_gee-Exa
+mplePlot.pdf>] [173]) [174]
+Chapter 27.
+(./probit.gee.tex
+
+Package natbib Warning: Author undefined for citation`Zorn01' 
+(natbib)                on page 175 on input line 16.
+
+[175
+
+] [176] <vigpics/probit_gee-ExamplePlot.pdf, id=2420, 433.62pt x 433.62pt>
+File: vigpics/probit_gee-ExamplePlot.pdf Graphic file (type pdf)
+
+<use vigpics/probit_gee-ExamplePlot.pdf> [177]
+<vigpics/probit_gee-FirstDifferencePlot.pdf, id=2427, 433.62pt x 433.62pt>
+File: vigpics/probit_gee-FirstDifferencePlot.pdf Graphic file (type pdf)
+
+<use vigpics/probit_gee-FirstDifferencePlot.pdf>
+Underfull \vbox (badness 3861) has occurred while \output is active []
+
+ [178 <./vigpics/probit_gee-ExamplePlot.pdf>] [179 <./vigpics/probit_gee-FirstD
+ifferencePlot.pdf>] [180]
+! pdfTeX warning (ext4): destination with the same identifier (name{cite.Lam-ga
+mma.gee11}) has been already used, duplicate ignored
+<to be read again> 
+                   \penalty 
+l.356 \bibentry{Lam-gamma.gee11}
+                                 [181]) [182]
+Chapter 28.
+(./bprobit.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@encoding' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<let>-command' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@family' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@series' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@shape' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\font@name' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\T1/aett/m/n/14.4' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\ignorespaces' on input line 7.
+
+[183
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 84--93
+
+ []
+
+<vigpics/bprobit-BasicExamplePlot.pdf, id=2480, 433.62pt x 433.62pt>
+File: vigpics/bprobit-BasicExamplePlot.pdf Graphic file (type pdf)
+
+<use vigpics/bprobit-BasicExamplePlot.pdf>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [184]
+<vigpics/bprobit-JointEstimationPlot.pdf, id=2487, 433.62pt x 433.62pt>
+File: vigpics/bprobit-JointEstimationPlot.pdf Graphic file (type pdf)
+
+<use vigpics/bprobit-JointEstimationPlot.pdf> [185 <./vigpics/bprobit-BasicExam
+plePlot.pdf>] [186 <./vigpics/bprobit-JointEstimationPlot.pdf>] [187] [188])
+[189] [190
+
+]
+Chapter 29.
+(./blogit.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@encoding' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<let>-command' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@family' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@series' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@shape' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\font@name' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\T1/aett/m/n/14.4' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\ignorespaces' on input line 8.
+
+[191]
+Underfull \hbox (badness 10000) in paragraph at lines 79--88
+
+ []
+
+<vigpics/blogit-BasicExamplePlot.pdf, id=2547, 433.62pt x 433.62pt>
+File: vigpics/blogit-BasicExamplePlot.pdf Graphic file (type pdf)
+
+<use vigpics/blogit-BasicExamplePlot.pdf>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [192]
+<vigpics/blogit-JointExamplePlot.pdf, id=2554, 433.62pt x 433.62pt>
+File: vigpics/blogit-JointExamplePlot.pdf Graphic file (type pdf)
+
+<use vigpics/blogit-JointExamplePlot.pdf> [193 <./vigpics/blogit-BasicExamplePl
+ot.pdf>] [194 <./vigpics/blogit-JointExamplePlot.pdf>] [195] [196]) [197]
+[198
+
+]
+Chapter 30.
+(./ologit.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@encoding' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<let>-command' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@family' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@series' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@shape' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\font@name' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\T1/aett/m/n/14.4' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\ignorespaces' on input line 7.
+
+[199] [200] [201]) [202]
+Chapter 31.
+(./oprobit.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@encoding' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<let>-command' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@family' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@series' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@shape' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\font@name' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\T1/aett/m/n/14.4' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\ignorespaces' on input line 7.
+
+[203
+
+] <vigpics/oprobit-ExamplePlot.pdf, id=2648, 433.62pt x 433.62pt>
+File: vigpics/oprobit-ExamplePlot.pdf Graphic file (type pdf)
+
+<use vigpics/oprobit-ExamplePlot.pdf> [204 <./vigpics/oprobit-ExamplePlot.pdf>]
+<vigpics/oprobit-FirstDifferencesPlot.pdf, id=2661, 433.62pt x 433.62pt>
+File: vigpics/oprobit-FirstDifferencesPlot.pdf Graphic file (type pdf)
+
+<use vigpics/oprobit-FirstDifferencesPlot.pdf> [205 <./vigpics/oprobit-FirstDif
+ferencesPlot.pdf>] [206]
+! pdfTeX warning (ext4): destination with the same identifier (name{cite.ImaLau
+Kin-ologit11}) has been already used, duplicate ignored
+<to be read again> 
+                   \penalty 
+l.256 \bibentry{ImaLauKin-ologit11}
+                                   
+Overfull \hbox (13.04199pt too wide) in paragraph at lines 262--265
+\T1/aett/m/n/10 www . stat . auckland . ac . nz / ~ \ protect \ kern + .1667em 
+\ relaxyee$[]\T1/aer/m/n/10 http://www.stat.auckland.ac.nz/ yee.Sample
+ []
+
+[207]) [208]
+Chapter 32.
+(./gamma.survey.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@encoding' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<let>-command' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@family' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@series' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@shape' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\font@name' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\T1/aett/m/n/14.4' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\ignorespaces' on input line 5.
+
+[209
+
+] [210]
+<vigpics/gammasurvey-ExistingPlot.pdf, id=2720, 433.62pt x 433.62pt>
+File: vigpics/gammasurvey-ExistingPlot.pdf Graphic file (type pdf)
+
+<use vigpics/gammasurvey-ExistingPlot.pdf> [211] [212 <./vigpics/gammasurvey-Ex
+istingPlot.pdf>]
+<vigpics/gammasurvey-ReplicatePlot.pdf, id=2740, 433.62pt x 433.62pt>
+File: vigpics/gammasurvey-ReplicatePlot.pdf Graphic file (type pdf)
+
+<use vigpics/gammasurvey-ReplicatePlot.pdf>
+Underfull \vbox (badness 1817) has occurred while \output is active []
+
+ [213]
+Underfull \hbox (badness 10000) in paragraph at lines 360--362
+
+ []
+
+[214 <./vigpics/gammasurvey-ReplicatePlot.pdf>] [215]
+Overfull \hbox (45.17206pt too wide) in paragraph at lines 494--498
+[]\T1/aer/m/n/10 When users es-ti-mate \T1/aett/m/n/10 gamma.survey \T1/aer/m/n
+/10 mod-els with repli-cate weights in \T1/aett/m/n/10 Zelig\T1/aer/m/n/10 , an
+ ob-ject called \T1/aett/m/n/10 .survey.prob.weights
+ []
+
+
+Package natbib Warning: Author undefined for citation`VenRip02' 
+(natbib)                on page 216 on input line 513.
+
+
+Overfull \hbox (8.29913pt too wide) in paragraph at lines 507--516
+\T1/aer/m/n/10 when es-ti-mat-ing survey-weighted mod-els, namely, \T1/aett/m/n
+/10 help(svyglm)\T1/aer/m/n/10 , \T1/aett/m/n/10 help(svydesign)\T1/aer/m/n/10 
+, and \T1/aett/m/n/10 help(svrepdesign)\T1/aer/m/n/10 .
+ []
+
+) [216]
+Chapter 33.
+(./logit.survey.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@encoding' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<let>-command' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@family' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@series' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@shape' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\font@name' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\T1/aett/m/n/14.4' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\ignorespaces' on input line 6.
+
+[217
+
+] [218]
+<vigpics/logitsurvey-ExistingPlot.pdf, id=2804, 433.62pt x 433.62pt>
+File: vigpics/logitsurvey-ExistingPlot.pdf Graphic file (type pdf)
+
+<use vigpics/logitsurvey-ExistingPlot.pdf> [219] [220 <./vigpics/logitsurvey-Ex
+istingPlot.pdf>]
+<vigpics/logitsurvey-ReplicatePlot.pdf, id=2823, 433.62pt x 433.62pt>
+File: vigpics/logitsurvey-ReplicatePlot.pdf Graphic file (type pdf)
+
+<use vigpics/logitsurvey-ReplicatePlot.pdf> [221]
+Underfull \vbox (badness 1178) has occurred while \output is active []
+
+ [222 <./vigpics/logitsurvey-ReplicatePlot.pdf>] [223]
+Overfull \hbox (45.17206pt too wide) in paragraph at lines 517--521
+[]\T1/aer/m/n/10 When users es-ti-mate \T1/aett/m/n/10 logit.survey \T1/aer/m/n
+/10 mod-els with repli-cate weights in \T1/aett/m/n/10 Zelig\T1/aer/m/n/10 , an
+ ob-ject called \T1/aett/m/n/10 .survey.prob.weights
+ []
+
+[224]
+
+Package natbib Warning: Author undefined for citation`VenRip02' 
+(natbib)                on page 225 on input line 538.
+
+
+Overfull \hbox (8.29913pt too wide) in paragraph at lines 532--541
+\T1/aer/m/n/10 when es-ti-mat-ing survey-weighted mod-els, namely, \T1/aett/m/n
+/10 help(svyglm)\T1/aer/m/n/10 , \T1/aett/m/n/10 help(svydesign)\T1/aer/m/n/10 
+, and \T1/aett/m/n/10 help(svrepdesign)\T1/aer/m/n/10 .
+ []
+
+) [225] [226
+
+]
+Chapter 34.
+(./normal.survey.tex
+Overfull \hbox (0.1915pt too wide) in paragraph at lines 6--6
+[]\T1/aett/bx/n/14.4 normal.survey\T1/aer/bx/n/14.4 : Survey-Weighted Nor-mal R
+e-gres-sion for Con-
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@encoding' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<let>-command' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@family' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@series' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@shape' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\font@name' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\T1/aett/m/n/14.4' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\ignorespaces' on input line 6.
+
+[227] [228]
+<vigpics/normalsurvey-ExistingPlot.pdf, id=2894, 433.62pt x 433.62pt>
+File: vigpics/normalsurvey-ExistingPlot.pdf Graphic file (type pdf)
+
+<use vigpics/normalsurvey-ExistingPlot.pdf> [229] [230 <./vigpics/normalsurvey-
+ExistingPlot.pdf>]
+<vigpics/normalsurvey-ReplicatePlot.pdf, id=2914, 433.62pt x 433.62pt>
+File: vigpics/normalsurvey-ReplicatePlot.pdf Graphic file (type pdf)
+
+<use vigpics/normalsurvey-ReplicatePlot.pdf> [231] [232 <./vigpics/normalsurvey
+-ReplicatePlot.pdf>] [233]
+Overfull \hbox (50.41205pt too wide) in paragraph at lines 506--510
+[]\T1/aer/m/n/10 When users es-ti-mate \T1/aett/m/n/10 normal.survey \T1/aer/m/
+n/10 mod-els with repli-cate weights in \T1/aett/m/n/10 Zelig\T1/aer/m/n/10 , a
+n ob-ject called \T1/aett/m/n/10 .survey.prob.weights
+ []
+
+
+Package natbib Warning: Author undefined for citation`VenRip02' 
+(natbib)                on page 234 on input line 525.
+
+
+Overfull \hbox (8.29913pt too wide) in paragraph at lines 519--528
+\T1/aer/m/n/10 when es-ti-mat-ing survey-weighted mod-els, namely, \T1/aett/m/n
+/10 help(svyglm)\T1/aer/m/n/10 , \T1/aett/m/n/10 help(svydesign)\T1/aer/m/n/10 
+, and \T1/aett/m/n/10 help(svrepdesign)\T1/aer/m/n/10 .
+ []
+
+) [234]
+Chapter 35.
+(./poisson.survey.tex
+Overfull \hbox (14.20265pt too wide) in paragraph at lines 9--9
+[]\T1/aett/bx/n/14.4 poisson.survey\T1/aer/bx/n/14.4 : Survey-Weighted Pois-son
+ Re-gres-sion for Event
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 9.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@encoding' on input line 9.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<let>-command' on input line 9.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 9.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@family' on input line 9.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 9.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@series' on input line 9.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 9.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@shape' on input line 9.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 9.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\font@name' on input line 9.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\T1/aett/m/n/14.4' on input line 9.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\ignorespaces' on input line 9.
+
+[235
+
+] [236] [237]
+<vigpics/poissonsurvey-ExistingPlot.pdf, id=2982, 433.62pt x 433.62pt>
+File: vigpics/poissonsurvey-ExistingPlot.pdf Graphic file (type pdf)
+
+<use vigpics/poissonsurvey-ExistingPlot.pdf> [238 <./vigpics/poissonsurvey-Exis
+tingPlot.pdf>]
+<vigpics/poissonsurvey-ReplicatePlot.pdf, id=2995, 433.62pt x 433.62pt>
+File: vigpics/poissonsurvey-ReplicatePlot.pdf Graphic file (type pdf)
+
+<use vigpics/poissonsurvey-ReplicatePlot.pdf> [239] [240 <./vigpics/poissonsurv
+ey-ReplicatePlot.pdf>] [241]
+Overfull \hbox (55.65204pt too wide) in paragraph at lines 510--514
+[]\T1/aer/m/n/10 When users es-ti-mate \T1/aett/m/n/10 poisson.survey \T1/aer/m
+/n/10 mod-els with repli-cate weights in \T1/aett/m/n/10 Zelig\T1/aer/m/n/10 , 
+an ob-ject called \T1/aett/m/n/10 .survey.prob.weights
+ []
+
+! pdfTeX warning (ext4): destination with the same identifier (name{cite.ImaLau
+Kin-gamma.survey11}) has been already used, duplicate ignored
+<to be read again> 
+                   \penalty 
+l.517 \bibentry{ImaLauKin-gamma.survey11}
+                                         
+
+Package natbib Warning: Author undefined for citation`VenRip02' 
+(natbib)                on page 242 on input line 531.
+
+
+Overfull \hbox (8.29913pt too wide) in paragraph at lines 525--534
+\T1/aer/m/n/10 when es-ti-mat-ing survey-weighted mod-els, namely, \T1/aett/m/n
+/10 help(svyglm)\T1/aer/m/n/10 , \T1/aett/m/n/10 help(svydesign)\T1/aer/m/n/10 
+, and \T1/aett/m/n/10 help(svrepdesign)\T1/aer/m/n/10 .
+ []
+
+) [242]
+Chapter 36.
+(./probit.survey.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@encoding' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<let>-command' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@family' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@series' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@shape' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\font@name' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\T1/aett/m/n/14.4' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\ignorespaces' on input line 5.
+
+[243
+
+] [244]
+<vigpics/probitsurvey-ExistingPlot.pdf, id=3056, 433.62pt x 433.62pt>
+File: vigpics/probitsurvey-ExistingPlot.pdf Graphic file (type pdf)
+
+<use vigpics/probitsurvey-ExistingPlot.pdf> [245] [246 <./vigpics/probitsurvey-
+ExistingPlot.pdf>]
+<vigpics/probitsurvey-ReplicatePlot.pdf, id=3075, 433.62pt x 433.62pt>
+File: vigpics/probitsurvey-ReplicatePlot.pdf Graphic file (type pdf)
+
+<use vigpics/probitsurvey-ReplicatePlot.pdf> [247] [248 <./vigpics/probitsurvey
+-ReplicatePlot.pdf>] [249]
+Overfull \hbox (50.41205pt too wide) in paragraph at lines 516--520
+[]\T1/aer/m/n/10 When users es-ti-mate \T1/aett/m/n/10 probit.survey \T1/aer/m/
+n/10 mod-els with repli-cate weights in \T1/aett/m/n/10 Zelig\T1/aer/m/n/10 , a
+n ob-ject called \T1/aett/m/n/10 .survey.prob.weights
+ []
+
+
+Package natbib Warning: Author undefined for citation`VenRip02' 
+(natbib)                on page 250 on input line 536.
+
+
+Overfull \hbox (8.29913pt too wide) in paragraph at lines 530--539
+\T1/aer/m/n/10 when es-ti-mat-ing survey-weighted mod-els, namely, \T1/aett/m/n
+/10 help(svyglm)\T1/aer/m/n/10 , \T1/aett/m/n/10 help(svydesign)\T1/aer/m/n/10 
+, and \T1/aett/m/n/10 help(svrepdesign)\T1/aer/m/n/10 .
+ []
+
+[250]) [251] [252
+
+] [253] [254]
+Chapter 37.
+(./faq.tex [255
+
+] [256] <figs/increase.pdf, id=3156, 351.3125pt x 393.47pt>
+File: figs/increase.pdf Graphic file (type pdf)
+
+<use figs/increase.pdf>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (4.64856pt too wide) in paragraph at lines 222--227
+\T1/aer/m/n/10 R is a col-lec-tive project with con-trib-u-tors from all over t
+he world. Their web-site ([]\T1/aett/m/n/10 http://www.r-project.org[]\T1/aer/m
+/n/10 )
+ []
+
+[257]
+Overfull \hbox (119.55156pt too wide) in paragraph at lines 247--251
+[]\T1/aer/m/n/10 In ad-di-tion, you may down-load the lat-est Zelig source code
+ as a tar-ball'ed di-rec-tory from []\T1/aett/m/n/10 http://gking.harvard.edu/s
+rc/contrib/[]\T1/aer/m/n/10 .
+ []
+
+[258 <./figs/increase.pdf>]) [259] [260
+
+]
+Chapter 38.
+(./whatsnew.tex
+Underfull \hbox (badness 10000) in paragraph at lines 29--31
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--41
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
+
+ []
+
+[261]
+Underfull \hbox (badness 10000) in paragraph at lines 46--48
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--57
+
+ []
+
+[262] [263] [264] [265] [266]
+Overfull \hbox (2.29591pt too wide) in paragraph at lines 422--429
+[]\T1/aer/bx/n/10 2.0-1b \T1/aer/m/n/10 (July 16, 2004): Sta-ble re-lease for R
+ 1.9.1. MD5 check-sum prob-lem fixed. Re-vised \T1/aett/m/n/10 plot.zelig()
+ []
+
+[267]) (./zelig.bbl [268]
+Underfull \hbox (badness 6876) in paragraph at lines 22--28
+[]\T1/aer/m/n/10 Andrew Gel-man and Gary King.  A uni-fied method of eval-u-at-
+ing elec-toral sys-tems
+ []
+
+
+Underfull \hbox (badness 2635) in paragraph at lines 22--28
+\T1/aer/m/n/10 and re-dis-trict-ing plans.  \T1/aer/m/it/10 Amer-i-can Jour-nal
+ of Po-lit-i-cal Sci-ence\T1/aer/m/n/10 , 38(2):514--554, May 1994.
+ []
+
+! pdfTeX warning (ext4): destination with the same identifier (name{cite.ImaLau
+Kin-logit11}) has been already used, duplicate ignored
+<to be read again> 
+                   \penalty 
+l.48 \bibitem{ImaLauKin-logit11}
+                                
+! pdfTeX warning (ext4): destination with the same identifier (name{cite.ImaLau
+Kin-logit.survey11}) has been already used, duplicate ignored
+<to be read again> 
+                   \penalty 
+l.52 \bibitem{ImaLauKin-logit.survey11}
+                                       
+! pdfTeX warning (ext4): destination with the same identifier (name{cite.ImaLau
+Kin-ls11}) has been already used, duplicate ignored
+<to be read again> 
+                   \penalty 
+l.57 \bibitem{ImaLauKin-ls11}
+                             
+! pdfTeX warning (ext4): destination with the same identifier (name{cite.ImaLau
+Kin-negbinom11}) has been already used, duplicate ignored
+<to be read again> 
+                   \penalty 
+l.62 \bibitem{ImaLauKin-negbinom11}
+                                   
+! pdfTeX warning (ext4): destination with the same identifier (name{cite.ImaLau
+Kin-normal11}) has been already used, duplicate ignored
+<to be read again> 
+                   \penalty 
+l.67 \bibitem{ImaLauKin-normal11}
+                                 
+! pdfTeX warning (ext4): destination with the same identifier (name{cite.ImaLau
+Kin-normal.survey11}) has been already used, duplicate ignored
+<to be read again> 
+                   \penalty 
+l.72 \bibitem{ImaLauKin-normal.survey11}
+                                        
+! pdfTeX warning (ext4): destination with the same identifier (name{cite.ImaLau
+Kin-ologit11}) has been already used, duplicate ignored
+<to be read again> 
+                   \penalty 
+l.77 \bibitem{ImaLauKin-ologit11}
+                                 
+! pdfTeX warning (ext4): destination with the same identifier (name{cite.ImaLau
+Kin-poisson11}) has been already used, duplicate ignored
+<to be read again> 
+                   \penalty 
+l.82 \bibitem{ImaLauKin-poisson11}
+                                  
+! pdfTeX warning (ext4): destination with the same identifier (name{cite.ImaLau
+Kin-probit11}) has been already used, duplicate ignored
+<to be read again> 
+                   \penalty 
+l.87 \bibitem{ImaLauKin-probit11}
+                                 
+! pdfTeX warning (ext4): destination with the same identifier (name{cite.ImaLau
+Kin-gamma.survey11}) has been already used, duplicate ignored
+<to be read again> 
+                   \penalty 
+l.92 \bibitem{ImaLauKin-gamma.survey11}
+                                        [269
+
+]
+! pdfTeX warning (ext4): destination with the same identifier (name{cite.ImaLau
+Kin-probit.survey11}) has been already used, duplicate ignored
+<to be read again> 
+                   \penalty 
+l.97 \bibitem{ImaLauKin-probit.survey11}
+                                        
+Underfull \hbox (badness 10000) in paragraph at lines 116--121
+[]\T1/aer/m/n/10 Gary King.  \T1/aer/m/it/10 A So-lu-tion to the Eco-log-i-cal 
+In-fer-ence Prob-lem: Re-con-struct-ing In-di-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--121
+\T1/aer/m/it/10 vid-ual Be-hav-ior from Ag-gre-gate Data\T1/aer/m/n/10 .  Princ
+e-ton Uni-ver-sity Press, Prince-ton, 1997.
+ []
+
+
+Underfull \hbox (badness 5787) in paragraph at lines 165--170
+[]\T1/aer/m/n/10 Gary King and Langche Zeng.  When can his-tory be our guide? t
+he pit-falls of
+ []
+
+
+Underfull \hbox (badness 7486) in paragraph at lines 165--170
+\T1/aer/m/n/10 coun-ter-fac-tual in-fer-ence.  \T1/aer/m/it/10 In-ter-na-tional
+ Stud-ies Quar-terly\T1/aer/m/n/10 , pages 183--210, March 2007.
+ []
+
+! pdfTeX warning (ext4): destination with the same identifier (name{cite.Lam-ga
+mma.gee11}) has been already used, duplicate ignored
+<to be read again> 
+                   \penalty 
+l.171 \bibitem{Lam-gamma.gee11}
+                               
+! pdfTeX warning (ext4): destination with the same identifier (name{cite.Lam-lo
+git.gee11}) has been already used, duplicate ignored
+<to be read again> 
+                   \penalty 
+l.176 \bibitem{Lam-logit.gee11}
+                               
+! pdfTeX warning (ext4): destination with the same identifier (name{cite.Lam-no
+rmal.gee11}) has been already used, duplicate ignored
+<to be read again> 
+                   \penalty 
+l.181 \bibitem{Lam-normal.gee11}
+                                
+! pdfTeX warning (ext4): destination with the same identifier (name{cite.Lam-po
+isson.gee11}) has been already used, duplicate ignored
+<to be read again> 
+                   \penalty 
+l.186 \bibitem{Lam-poisson.gee11}
+                                 
+! pdfTeX warning (ext4): destination with the same identifier (name{cite.ImaLau
+Kin-blogit11}) has been already used, duplicate ignored
+<to be read again> 
+                   \penalty 
+l.191 \bibitem{ImaLauKin-blogit11}
+                                  
+! pdfTeX warning (ext4): destination with the same identifier (name{cite.ImaLau
+Kin-bprobit11}) has been already used, duplicate ignored
+<to be read again> 
+                   \penalty 
+l.196 \bibitem{ImaLauKin-bprobit11}
+                                    [270]
+! pdfTeX warning (ext4): destination with the same identifier (name{cite.OwenCr
+anmer-logit.gam11}) has been already used, duplicate ignored
+<to be read again> 
+                   \penalty 
+l.221 \bibitem{OwenCranmer-logit.gam11}
+                                       
+! pdfTeX warning (ext4): destination with the same identifier (name{cite.OwenCr
+anmer-normal.gam11}) has been already used, duplicate ignored
+<to be read again> 
+                   \penalty 
+l.226 \bibitem{OwenCranmer-normal.gam11}
+                                        
+! pdfTeX warning (ext4): destination with the same identifier (name{cite.OwenCr
+anmer-poisson.gam11}) has been already used, duplicate ignored
+<to be read again> 
+                   \penalty 
+l.231 \bibitem{OwenCranmer-poisson.gam11}
+                                         
+! pdfTeX warning (ext4): destination with the same identifier (name{cite.OwenCr
+anmer-probit.gam11}) has been already used, duplicate ignored
+<to be read again> 
+                   \penalty 
+l.236 \bibitem{OwenCranmer-probit.gam11}
+                                        ) [271] (./zelig.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 9368 strings out of 94500
+ 120155 string characters out of 1176766
+ 196875 words of memory out of 1000000
+ 11105 multiletter control sequences out of 10000+50000
+ 73495 words of font info for 160 fonts, out of 500000 for 2000
+ 580 hyphenation exceptions out of 1000
+ 35i,15n,42p,712b,593s stack positions out of 1500i,500n,5000p,200000b,5000s
+PDF statistics:
+ 3244 PDF objects out of 300000
+ 1011 named destinations out of 131072
+ 1542 words of extra memory for PDF output out of 65536
+</usr/share/texmf/fonts/type1/bluesky/cm/cmr5.pfb></usr/share/texmf/fonts/typ
+e1/bluesky/cm/cmsy5.pfb></usr/share/texmf/fonts/type1/bluesky/symbols/msbm10.pf
+b></usr/share/texmf/fonts/type1/bluesky/cm/cmex10.pfb></usr/share/texmf/fonts/t
+ype1/bluesky/cm/cmsy7.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsltt10.pfb
+></usr/share/texmf/fonts/type1/bluesky/cm/cmti8.pfb></usr/share/texmf/fonts/typ
+e1/bluesky/cm/cmmi5.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmtt12.pfb></u
+sr/share/texmf/fonts/type1/bluesky/cm/cmbxti10.pfb></usr/share/texmf/fonts/type
+1/public/xypic/xycirc10.pfb></usr/share/texmf/fonts/type1/public/xypic/xydash10
+.pfb></usr/share/texmf/fonts/type1/public/xypic/xyeubt10.pfb></usr/share/texmf/
+fonts/type1/public/xypic/xyeuat10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/
+cmmi7.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmcsc10.pfb></usr/share/texm
+f/fonts/type1/bluesky/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cm
+mi10.pfb> </var/lib/texmf/pk/ljfour/jknappen/tc/tcrm1000.600pk></usr/share/texm
+f/fonts/type1/bluesky/cm/cmtt8.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr
+7.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmti10.pfb></usr/share/texmf/fon
+ts/type1/bluesky/cm/cmtt10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmbx10.
+pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmbx12.pfb></usr/share/texmf/fonts
+/type1/bluesky/cm/cmr10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmtt9.pfb>
+</usr/share/texmf/fonts/type1/bluesky/cm/cmr9.pfb></usr/share/texmf/fonts/type1
+/bluesky/cm/cmr6.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr8.pfb></usr/sh
+are/texmf/fonts/type1/bluesky/cm/cmr12.pfb></usr/share/texmf/fonts/type1/bluesk
+y/cm/cmr17.pfb>
+Output written on zelig.pdf (271 pages, 2550414 bytes).

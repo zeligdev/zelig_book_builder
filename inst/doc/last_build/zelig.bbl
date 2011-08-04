@@ -1,0 +1,301 @@
+\begin{thebibliography}{10}
+
+\bibitem{AdoKinHer03}
+Christopher Adolph, with Michael C.~Herron Gary~King, and Kenneth~W. Shotts.
+\newblock A consensus on second stage analyses in ecological inference models.
+\newblock {\em Political Analysis}, 11(1):86--94, Winter 2003.
+\newblock {http://gking.harvard.edu/files/abs/akhs-abs.shtml}.
+
+\bibitem{Andrews91}
+Donald~W.K. Andrews.
+\newblock Heteroskedasticity and autocorrelation consistent covariance matrix
+  estimation.
+\newblock {\em Econometrica}, 59(3):817--858, May 1991.
+
+\bibitem{Bin83}
+David~A. Binder.
+\newblock On the variance of asymptoticaly normal estimators from complex
+  surveys.
+\newblock {\em International Statistical Review}, 51(3):279--292, 1983.
+
+\bibitem{GelKin94}
+Andrew Gelman and Gary King.
+\newblock A unified method of evaluating electoral systems and redistricting
+  plans.
+\newblock {\em American Journal of Political Science}, 38(2):514--554, May
+  1994.
+\newblock {http://gking.harvard.edu/files/abs/writeit-abs.shtml}.
+
+\bibitem{HoImaKin07}
+Daniel Ho, Kosuke Imai, Gary King, and Elizabeth Stuart.
+\newblock Matching as nonparametric preprocessing for reducing model dependence
+  in parametric causal inference.
+\newblock {\em Political Analysis}, 15:199--236, 2007.
+\newblock {http://gking.harvard.edu/files/abs/matchp-abs.shtml}.
+
+\bibitem{HorTho52}
+D.~G. Horvitz and D.J. Thompson.
+\newblock A generalization of sampling without replacement from a finite
+  universe.
+\newblock {\em Journal of the American Statistical Association}, 47:663--685,
+  1952.
+
+\bibitem{Huber81}
+Peter~J. Huber.
+\newblock {\em Robust Statistics}.
+\newblock Wiley, 1981.
+
+\bibitem{ImaLauKin-logit11}
+Kosuke Imai, Olivia Lau, and Gary King.
+\newblock {\em logit: Logistic Regression for Dichotomous Dependent}, 2011.
+
+\bibitem{ImaLauKin-logit.survey11}
+Kosuke Imai, Olivia Lau, and Gary King.
+\newblock {\em logit.survey: Survey-Weighted Logistic Regression for
+  Dichotomous Dependent Variables}, 2011.
+
+\bibitem{ImaLauKin-ls11}
+Kosuke Imai, Olivia Lau, and Gary King.
+\newblock {\em ls: Least Squares Regression for Continuous Dependent
+  Variables}, 2011.
+
+\bibitem{ImaLauKin-negbinom11}
+Kosuke Imai, Olivia Lau, and Gary King.
+\newblock {\em negbinom: Negative Binomial Regression for Event Count Dependent
+  Variables}, 2011.
+
+\bibitem{ImaLauKin-normal11}
+Kosuke Imai, Olivia Lau, and Gary King.
+\newblock {\em normal: Normal Regression for Continuous Dependent Variables},
+  2011.
+
+\bibitem{ImaLauKin-normal.survey11}
+Kosuke Imai, Olivia Lau, and Gary King.
+\newblock {\em normal.survey: Survey-Weighted Normal Regression for Continuous
+  Dependent Variables}, 2011.
+
+\bibitem{ImaLauKin-ologit11}
+Kosuke Imai, Olivia Lau, and Gary King.
+\newblock {\em ologit: Ordinal Logistic Regression for Ordered Categorical
+  Dependent Variables}, 2011.
+
+\bibitem{ImaLauKin-poisson11}
+Kosuke Imai, Olivia Lau, and Gary King.
+\newblock {\em poisson: Poisson Regression for Event Count Dependent
+  Variables}, 2011.
+
+\bibitem{ImaLauKin-probit11}
+Kosuke Imai, Olivia Lau, and Gary King.
+\newblock {\em probit: Probit Regression for Dichotomous Dependent Variables},
+  2011.
+
+\bibitem{ImaLauKin-gamma.survey11}
+Kosuke Imai, Olivia Lau, and Gary King.
+\newblock {\em probit.survey: Survey-Weighted Probit Regression for Dichotomous
+  Dependent Variables}, 2011.
+
+\bibitem{ImaLauKin-probit.survey11}
+Kosuke Imai, Olivia Lau, and Gary King.
+\newblock {\em probit.survey: Survey-Weighted Probit Regression for Dichotomous
+  Dependent Variables}, 2011.
+
+\bibitem{KatKin99}
+Jonathan Katz and Gary King.
+\newblock A statistical model for multiparty electoral data.
+\newblock {\em American Political Science Review}, 93(1):15--32, March 1999.
+\newblock {http://gking.harvard.edu/files/abs/multiparty-abs.shtml}.
+
+\bibitem{King95}
+Gary King.
+\newblock Replication, replication.
+\newblock {\em PS: Political Science and Politics}, 28(3):443--499, September
+  1995.
+\newblock {http://gking.harvard.edu/files/abs/replication-abs.shtml}.
+
+\bibitem{King97}
+Gary King.
+\newblock {\em A Solution to the Ecological Inference Problem: Reconstructing
+  Individual Behavior from Aggregate Data}.
+\newblock Princeton University Press, Princeton, 1997.
+\newblock {http://gking.harvard.edu/eicamera/kinroot.html}.
+
+\bibitem{KinAltBur90}
+Gary King, James Alt, Nancy Burns, and Michael Laver.
+\newblock A unified model of cabinet dissolution in parliamentary democracies.
+\newblock {\em American Journal of Political Science}, 34(3):846--871, August
+  1990.
+\newblock {http://gking.harvard.edu/files/abs/coal-abs.shtml}.
+
+\bibitem{KinHonJos01}
+Gary King, James Honaker, Anne Joseph, and Kenneth Scheve.
+\newblock Analyzing incomplete political science data: An alternative algorithm
+  for multiple imputation.
+\newblock {\em American Political Science Review}, 95(1):49--69, March 2001.
+\newblock {http://gking.harvard.edu/files/abs/evil-abs.shtml}.
+
+\bibitem{KinMurSal04}
+Gary King, Christopher~J.L. Murray, Joshua~A. Salomon, and Ajay Tandon.
+\newblock Enhancing the validity and cross-cultural comparability of
+  measurement in survey research.
+\newblock {\em American Political Science Review}, 98(1):191--207, February
+  2004.
+\newblock {http://gking.harvard.edu/files/abs/vign-abs.shtml}.
+
+\bibitem{KinTomWit00}
+Gary King, Michael Tomz, and Jason Wittenberg.
+\newblock Making the most of statistical analyses: Improving interpretation and
+  presentation.
+\newblock {\em American Journal of Political Science}, 44(2):341--355, April
+  2000.
+\newblock {http://gking.harvard.edu/files/abs/making-abs.shtml}.
+
+\bibitem{KinZen02}
+Gary King and Langche Zeng.
+\newblock Improving forecasts of state failure.
+\newblock {\em World Politics}, 53(4):623--658, July 2002.
+\newblock {http://gking.harvard.edu/files/abs/civil-abs.shtml}.
+
+\bibitem{KinZen06}
+Gary King and Langche Zeng.
+\newblock The dangers of extreme counterfactuals.
+\newblock {\em Political Analysis}, 14(2):131--159, 2006.
+\newblock {http://gking.harvard.edu/files/abs/counterft-abs.shtml}.
+
+\bibitem{KinZen07}
+Gary King and Langche Zeng.
+\newblock When can history be our guide? the pitfalls of counterfactual
+  inference.
+\newblock {\em International Studies Quarterly}, pages 183--210, March 2007.
+\newblock {http://gking.harvard.edu/files/abs/counterf-abs.shtml}.
+
+\bibitem{Lam-gamma.gee11}
+Patrick Lam.
+\newblock {\em gamma.gee: General Estimating Equation for Gamma Regression},
+  2011.
+
+\bibitem{Lam-logit.gee11}
+Patrick Lam.
+\newblock {\em logit.gee: General Estimating Equation for Logit Regression},
+  2011.
+
+\bibitem{Lam-normal.gee11}
+Patrick Lam.
+\newblock {\em normal.gee: General Estimating Equation for Normal Regression},
+  2011.
+
+\bibitem{Lam-poisson.gee11}
+Patrick Lam.
+\newblock {\em poisson.gee: General Estimating Equation for Poisson
+  Regression}, 2011.
+
+\bibitem{ImaLauKin-blogit11}
+Olivia Lau, Kosuke Imai, and Gary King.
+\newblock {\em Bivariate Logistic Regression for Two Dichotomous Dependent
+  Variables}, 2011.
+
+\bibitem{ImaLauKin-bprobit11}
+Olivia Lau, Kosuke Imai, and Gary King.
+\newblock {\em Bivariate Probit Regression for Two Dichotomous Dependent
+  Variables}, 2011.
+
+\bibitem{LumHea99}
+Thomas Lumley and Patrick Heagerty.
+\newblock Weighted empirical adaptive variance estimators for correlated data
+  regression.
+\newblock {\em jrssb}, 61(2):459--477, 1999.
+
+\bibitem{Martin92}
+Lisa Martin.
+\newblock {\em Coercive Cooperation: Explaining Multilateral Economic
+  Sanctions}.
+\newblock Princeton University Press, 1992.
+\newblock Please inquire with Lisa Martin before publishing results from these
+  data, as this dataset includes errors that have since been corrected.
+
+\bibitem{McCNel89}
+Peter McCullagh and James~A. Nelder.
+\newblock {\em Generalized Linear Models}.
+\newblock Number~37 in Monograph on Statistics and Applied Probability. Chapman
+  \& Hall, 2nd edition, 1989.
+
+\bibitem{OwenCranmer-logit.gam11}
+Matt Owen and Skyler Cranmer.
+\newblock {\em Generalized Additive Model for Logistic Regression of
+  Dichotomous Dependent Variables}, 2011.
+
+\bibitem{OwenCranmer-normal.gam11}
+Matt Owen and Skyler Cranmer.
+\newblock {\em Generalized Additive Model for Normal Regression of Continuous
+  Dependent Variables}, 2011.
+
+\bibitem{OwenCranmer-poisson.gam11}
+Matt Owen and Skyler Cranmer.
+\newblock {\em Generalized Additive Model for Poisson Regression of Count
+  Dependent Variables}, 2011.
+
+\bibitem{OwenCranmer-probit.gam11}
+Matt Owen and Skyler Cranmer.
+\newblock {\em Generalized Additive Model for Probit Regression of Dichotomous
+  Dependent Variables}, 2011.
+
+\bibitem{SchSla01}
+Kenneth Scheve and Matthew Slaughter.
+\newblock Labor market competition and individual preferences over immigration
+  policy.
+\newblock {\em Review of Economics and Statistics}, 83(1):133--145, February
+  2001.
+\newblock Sample data include only the first five of ten multiply imputed data
+  sets.
+
+\bibitem{StoKinZen05}
+Heather Stoll, Gary King, and Langchee Zeng.
+\newblock Whatif: Software for evaluating counterfactuals.
+\newblock {\em Journal of Statistical Software}, 15(4), 2005.
+\newblock {http://www.jstatsoft.org/index.php?vol=15}.
+
+\bibitem{VenRip02}
+William~N. Venables and Brian~D. Ripley.
+\newblock {\em Modern Applied Statistics with S}.
+\newblock Springer-Verlag, 4th edition, 2002.
+
+\bibitem{White80}
+Halbert White.
+\newblock A heteroscedastic-consistent covariance matrix estimator and a direct
+  test for heteroscedasticity.
+\newblock {\em Econometrica}, 48(4):817--838, 1980.
+
+\bibitem{Wood00}
+Simon~N. Wood.
+\newblock Modeling and smoothing parameter estimation wiht multiple quadratic
+  penalties.
+\newblock {\em Journal of the Royal Statistical Society}, 62(2):413--428, 2000.
+
+\bibitem{Wood04}
+Simon~N. Wood.
+\newblock Stable and efficient multiple smoothing parameter estimation for
+  generalized additive models.
+\newblock {\em Journal of the American Statistical Association}, 99:673--686,
+  2004.
+
+\bibitem{Wood06}
+Simon~N. Wood.
+\newblock {\em Generalized Additive Models: An Introduction with R}.
+\newblock CRC Press, London, 2006.
+
+\bibitem{YeeHas03}
+T.~W. Yee and T.~J. Hastie.
+\newblock Reduced-rank vector generalized linear models.
+\newblock {\em Statistical Modelling}, 3:15--41, 2003.
+
+\bibitem{Zeileis04}
+Achim Zeileis.
+\newblock Econometric computing with hc and hac covariance matrix estimators.
+\newblock {\em Journal of Statistical Software}, 11(10):1--17, 2004.
+
+\bibitem{Zorn01}
+Christopher Zorn.
+\newblock Generalized estimating equation models for correlated data: A review
+  with applications.
+\newblock {\em American Journal of Political Science}, 45:470--490, April 2001.
+
+\end{thebibliography}

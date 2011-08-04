@@ -1,0 +1,121 @@
+This is BibTeX, Version 0.99c (Web2C 7.5.4)
+The top-level auxiliary file: zelig.aux
+The style file: plain.bst
+Database file #1: gk.bib
+Database file #2: gkpubs.bib
+Database file #3: core.bib
+Database file #4: bivariate.zelig.bib
+Repeated entry---line 17 of file bivariate.zelig.bib
+ : @article{YeeHas03
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 28 of file bivariate.zelig.bib
+ : @book{Martin92
+ :               ,
+I'm skipping whatever remains of this entry
+Database file #5: gam.zelig.bib
+Repeated entry---line 32 of file gam.zelig.bib
+ : @book{Wood06
+ :             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 40 of file gam.zelig.bib
+ : @article{Wood04
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 49 of file gam.zelig.bib
+ : @article{Wood00
+ :                ,
+I'm skipping whatever remains of this entry
+Database file #6: gee.zelig.bib
+Repeated entry---line 43 of file gee.zelig.bib
+ : @article{Zorn01
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 54 of file gee.zelig.bib
+ : @article{KinAltBur90
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 68 of file gee.zelig.bib
+ : @article{KinTomWit00
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 81 of file gee.zelig.bib
+ : @book{Martin92
+ :               ,
+I'm skipping whatever remains of this entry
+Database file #7: ordinal.zelig.bib
+Repeated entry---line 24 of file ordinal.zelig.bib
+ : @book{Martin92
+ :               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 33 of file ordinal.zelig.bib
+ : @book{McCNel89
+ :               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 43 of file ordinal.zelig.bib
+ : @article{YeeHas03
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 53 of file ordinal.zelig.bib
+ : @book{VenRip02
+ :               ,
+I'm skipping whatever remains of this entry
+Database file #8: survey.Zelig.bib
+Repeated entry---line 52 of file survey.Zelig.bib
+ : @book{McCNel89
+ :               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 61 of file survey.Zelig.bib
+ : @book{VenRip02
+ :               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 68 of file survey.Zelig.bib
+ : @article{HorTho52
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 77 of file survey.Zelig.bib
+ : @article{Bin83
+ :               ,
+I'm skipping whatever remains of this entry
+You've used 51 entries,
+            2118 wiz_defined-function locations,
+            878 strings with 12922 characters,
+and the built_in function-call counts, 14476 in all, are:
+= -- 1416
+> -- 687
+< -- 2
++ -- 279
+- -- 220
+* -- 997
+:= -- 2484
+add.period$ -- 149
+call.type$ -- 51
+change.case$ -- 238
+chr.to.int$ -- 0
+cite$ -- 51
+duplicate$ -- 533
+empty$ -- 1139
+format.name$ -- 220
+if$ -- 2932
+int.to.chr$ -- 0
+int.to.str$ -- 51
+missing$ -- 36
+newline$ -- 253
+num.names$ -- 102
+pop$ -- 240
+preamble$ -- 1
+purify$ -- 212
+quote$ -- 0
+skip$ -- 377
+stack$ -- 0
+substring$ -- 800
+swap$ -- 82
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 192
+warning$ -- 0
+while$ -- 146
+width$ -- 53
+write$ -- 531
+(There were 17 error messages)

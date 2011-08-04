@@ -1,0 +1,520 @@
+
+
+ 
+
+\section{{\tt gamma.survey}: Survey-Weighted Gamma Regression for Continuous, Positive Dependent Variables}
+\label{gamma.survey}
+
+The survey-weighted Gamma regression model is appropriate for 
+survey data obtained using complex sampling techniques, such as 
+stratified random or cluster sampling (e.g., not simple random 
+sampling).  Like the conventional Gamma regression models (see 
+\Sref{gamma}), survey-weighted Gamma regression specifies a 
+continuous, positive dependent variable as function of a set of explanatory 
+variables.  The survey-weighted Gamma model reports estimates of 
+model parameters identical to conventional Gamma estimates, but uses 
+information from the survey design to correct variance estimates.
+
+The {\tt gamma.survey} model accommodates three common types of 
+complex survey data.  Each method listed here requires selecting 
+specific options which are detailed in the ``Additional Inputs'' 
+section below.  \begin{enumerate}
+
+\item \textbf{Survey weights}:  Survey data are often published along
+with weights for each observation.  For example, if a survey
+intentionally over-samples a particular type of case, weights can be
+used to correct for the over-representation of that type of case in
+the dataset. Survey weights come in two forms:
+\begin{enumerate}
+
+\item \textit{Probability} weights report the probability that each
+case is drawn from the population.  For each stratum or cluster, 
+this is computed as the number of observations in the sample drawn 
+from that group divided by the number of observations in the 
+population in the group.
+
+\item \textit{Sampling} weights are the inverse of the probability
+weights.   
+
+\end{enumerate}
+
+\item \textbf{Strata/cluster identification}:  A complex survey 
+dataset may include variables that identify the strata or cluster 
+from which observations are drawn.  For stratified random sampling 
+designs, observations may be nested in different strata.  There are 
+two ways to employ these identifiers:
+
+\begin{enumerate}
+
+\item Use \textit{finite population corrections} to specify the
+total number of cases in the stratum or cluster from which each
+observation was drawn.
+
+\item For stratified random sampling designs, use the raw strata ids
+to compute sampling weights from the data.
+
+\end{enumerate}
+
+\item \textbf{Replication weights}: To preserve the anonymity of
+survey participants, some surveys exclude strata and cluster ids 
+from the public data and instead release only pre-computed replicate 
+weights.
+
+\end{enumerate}
+
+\subsubsection{Syntax}
+
+\begin{verbatim}
+> z.out <- zelig(Y ~ X1 + X2, model = "gamma.survey", data = mydata)
+> x.out <- setx(z.out)
+> s.out <- sim(z.out, x = x.out)
+\end{verbatim}
+
+
+\subsubsection{Additional Inputs}
+
+In addition to the standard {\tt zelig} inputs (see
+\Sref{Zcommands}), survey-weighted Gamma models accept the following
+optional inputs:
+\begin{enumerate}
+
+\item Datasets that include survey weights:. 
+
+\begin{itemize}  
+
+\item {\tt probs}: An optional formula or numerical vector specifying each 
+case's probability weight, the probability that the case was 
+selected.  Probability weights need not (and, in most cases, will 
+not) sum to one.  Cases with lower probability weights are weighted 
+more heavily in the computation of model coefficients.
+
+\item {\tt weights}: An optional numerical vector specifying each 
+case's sample weight, the inverse of the probability that the case 
+was selected.  Sampling weights need not (and, in most cases, will 
+not) sum to one.  Cases with higher sampling weights are weighted 
+more heavily in the computation of model coefficients.
+
+\end{itemize}
+
+\item Datasets that include strata/cluster identifiers:
+
+\begin{itemize} 
+
+\item {\tt ids}: An optional formula or numerical vector identifying the 
+cluster from which each observation was drawn (ordered from largest level to smallest level).  
+For survey designs  that do not involve cluster sampling, {\tt ids} defaults to {\tt NULL}.
+
+\item {\tt fpc}: An optional numerical vector identifying each 
+case's frequency weight, the total number of units in the population 
+from which each observation was sampled. 
+
+\item {\tt strata}: An optional formula or vector identifying the 
+stratum from which each observation was sampled.  Entries may be 
+numerical, logical, or strings.  For survey designs that do not 
+involve cluster sampling, {\tt strata} defaults to {\tt NULL}. 
+
+\item {\tt nest}: An optional logical value specifying whether 
+primary sampling unites (PSUs) have non-unique ids across multiple 
+strata.  {\tt nest=TRUE} is appropriate when PSUs reuse the same 
+identifiers across strata.  Otherwise, {\tt nest} defaults to {\tt 
+FALSE}. 
+
+\item {\tt check.strata}: An optional input specifying whether to 
+check that clusters are nested in strata.  If {\tt check.strata} is 
+left at its default, {\tt !nest}, the check is not performed.  If 
+{\tt check.strata} is specified as {\tt TRUE}, the check is carried 
+out.  
+
+\end{itemize}
+
+\item Datasets that include replication weights:
+\begin{itemize}
+  \item {\tt repweights}: A formula or matrix specifying
+    replication weights, numerical vectors of weights used
+    in a process in which the sample is repeatedly re-weighted and parameters
+    are re-estimated in order to compute the variance of the model parameters.
+  \item {\tt type}: A string specifying the type of replication weights being used.
+    This input is required if replicate weights are specified.  The following types
+    of replication weights are recognized: {\tt"BRR"}, {\tt "Fay"},
+    {\tt "JK1"}, {\tt "JKn"}, {\tt "bootstrap"}, or {\tt "other"}.
+  \item {\tt weights}: An optional vector or formula specifying each case's sample weight,
+    the inverse of the probability that the case was selected.  If a survey includes both sampling 
+    weights and replicate weights separately for the same survey, both should be included in 
+    the model specification.  In these cases, sampling weights are used to correct potential biases 
+    in in the computation of coefficients and replication weights are used to compute the variance 
+    of coefficient estimates.  
+  \item {\tt combined.weights}: An optional logical value that 
+    should be specified as {\tt TRUE} if the replicate weights include the sampling weights.  Otherwise, 
+    {\tt combined.weights} defaults to {\tt FALSE}.  
+  \item {\tt rho}:  An optional numerical value specifying a shrinkage factor
+    for replicate weights of type {\tt "Fay"}.
+  \item {\tt bootstrap.average}: An optional numerical input specifying
+    the number of iterations over which replicate weights of type {\tt "bootstrap"} were averaged. 
+    This input should be left as {\tt NULL} for {\tt "bootstrap"} weights that were
+    not were created by averaging.
+\item {\tt scale}:  When replicate weights are included,
+    the variance is computed as the sum of squared deviations of the replicates from their mean.
+    {\tt scale} is an optional overall multiplier for the standard deviations.
+\item {\tt rscale}: Like {\tt scale}, {\tt rscale} specifies an 
+optional vector of replicate-specific multipliers for the squared 
+deviations used in variance computation. 
+
+\item {\tt fpc}: For models in which {\tt "JK1"}, {\tt "JKn"}, or 
+{\tt "other"} replicates are specified, {\tt fpc} is an optional 
+numerical vector (with one entry for each replicate) designating the 
+replicates' finite population corrections.   
+
+\item {\tt fpctype}: When a finite population correction is included 
+as an {\tt fpc} input, {\tt fpctype} is a required input specifying 
+whether the input to {\tt fpc} is a sampling fraction ({\tt 
+fpctype="fraction"}) or a direct correction ({\tt 
+fpctype="correction"}).  
+
+\item {\tt return.replicates}: An optional logical value    
+specifying whether the replicates should be returned as a component 
+of the output.  {\tt return.replicates} defaults to {\tt FALSE}.  
+
+\end{itemize}
+
+\end{enumerate}
+
+\subsubsection{Examples}
+
+\begin{enumerate} 
+
+\item A dataset that includes survey weights:
+
+Attach the sample data: 
+\begin{Schunk}
+\begin{Sinput}
+> data(api, package = "survey")
+\end{Sinput}
+\end{Schunk}
+
+Suppose that a dataset included a positive and continuous measure of
+public schools' performance ({\tt api00}), a measure of 
+the percentage of students at each school who receive subsidized 
+meals ({\tt meals}), an indicator for whether each school
+holds classes year round ({\tt year.rnd}), and sampling 
+weights computed by the survey house ({\tt pw}).  Estimate a model
+that regresses school performance on the {\tt meals} and {\tt year.rnd}
+variables:
+\begin{Schunk}
+\begin{Sinput}
+> z.out1 <- zelig(api00 ~ meals + yr.rnd, model = "gamma.survey", 
++     weights = ~pw, data = apistrat)
+\end{Sinput}
+\end{Schunk}
+Summarize regression coefficients:
+\begin{Schunk}
+\begin{Sinput}
+> summary(z.out1)
+\end{Sinput}
+\end{Schunk}
+Set explanatory variables to their default (mean/mode) values, and
+set a high (80th percentile) and low (20th percentile) value for
+``meals'': 
+\begin{Schunk}
+\begin{Sinput}
+> x.low <- setx(z.out1, meals = quantile(apistrat$meals, 0.2))
+> x.high <- setx(z.out1, meals = quantile(apistrat$meals, 0.8))
+\end{Sinput}
+\end{Schunk}
+Generate first differences for the
+effect of high versus low concentrations of children receiving
+subsidized meals on the probability of holding school year-round: 
+\begin{Schunk}
+\begin{Sinput}
+> s.out1 <- sim(z.out1, x = x.high, x1 = x.low)
+\end{Sinput}
+\end{Schunk}
+\begin{Schunk}
+\begin{Sinput}
+> summary(s.out1)
+\end{Sinput}
+\end{Schunk}
+Generate a visual summary of the quantities of interest:
+\begin{center}
+\begin{Schunk}
+\begin{Sinput}
+> plot(s.out1)
+\end{Sinput}
+\end{Schunk}
+\includegraphics{vigpics/gammasurvey-ExistingPlot}
+\end{center}
+
+\item  A dataset that includes strata/cluster identifiers:
+
+Suppose that the survey house that provided the dataset used in the
+previous example excluded sampling weights but made other details
+about the survey design available.  A user can still estimate a model
+without sampling weights that instead uses inputs that identify the
+stratum and/or cluster to which each observation belongs and the
+size of the finite population from which each observation was drawn.
+
+Continuing the example above, suppose the survey house drew at
+random a fixed number of elementary schools, a fixed number of
+middle schools, and a fixed number of high schools. If the variable
+{\tt stype} is a vector of characters ({\tt "E"} for elementary
+schools, {\tt "M"} for middle schools, and {\tt "H"} for high schools)
+that identifies the type of school each case
+represents and {\tt fpc} is a numerical vector that identifies for
+each case the total number of schools of the same type in the
+population, then the user could estimate the following model:
+
+\begin{Schunk}
+\begin{Sinput}
+> z.out2 <- zelig(api00 ~ meals + yr.rnd, model = "gamma.survey", 
++     strata = ~stype, fpc = ~fpc, data = apistrat)
+\end{Sinput}
+\end{Schunk}
+Summarize the regression output:
+\begin{Schunk}
+\begin{Sinput}
+> summary(z.out2)
+\end{Sinput}
+\end{Schunk}
+The coefficient estimates for this example are
+identical to the point estimates in the first example, when
+pre-existing sampling weights were used.  When sampling weights are
+omitted, they are estimated automatically for {\tt "gamma.survey"}
+models based on the user-defined description of sampling designs. 
+
+Moreover, because the user provided information about the survey
+design, the standard error estimates are lower in this example than
+in the previous example, in which the user omitted variables pertaining
+to the details of the complex survey design.
+
+\item A dataset that includes replication weights:
+
+Survey houses sometimes supply
+replicate weights (in lieu of details about the survey design).  
+Suppose that the survey house that published these school 
+data withheld strata/cluster identifiers and instead 
+published replication weights.  For the sake
+of illustrating how replicate weights can be used as inputs in {\tt
+gamma.survey} models, create a set of jack-knife 
+(JK1) replicate weights: 
+\begin{Schunk}
+\begin{Sinput}
+> jk1reps <- jk1weights(psu = apistrat$dnum)
+\end{Sinput}
+\end{Schunk}
+Again, estimate a model that regresses school performance on 
+the {\tt meals} and {\tt year.rnd} variables, using
+the JK1 replicate weights in {\tt jk1reps} to compute standard errors:
+\begin{Schunk}
+\begin{Sinput}
+> z.out3 <- zelig(api00 ~ meals + yr.rnd, model = "gamma.survey", 
++     data = apistrat, repweights = jk1reps$weights, type = "JK1")
+\end{Sinput}
+\end{Schunk}
+Summarize the regression coefficients: 
+\begin{Schunk}
+\begin{Sinput}
+> summary(z.out3)
+\end{Sinput}
+\end{Schunk}
+Set the explanatory variable {\tt meals} at its 20th and 80th quantiles:
+\begin{Schunk}
+\begin{Sinput}
+> x.low <- setx(z.out3, meals = quantile(apistrat$meals, 0.2))
+> x.high <- setx(z.out3, meals = quantile(apistrat$meals, 0.8))
+\end{Sinput}
+\end{Schunk}
+Generate first
+differences for the effect of high versus low 
+concentrations of poverty on school performance:
+\begin{Schunk}
+\begin{Sinput}
+> s.out3 <- sim(z.out3, x = x.high, x1 = x.low)
+\end{Sinput}
+\end{Schunk}
+\begin{Schunk}
+\begin{Sinput}
+> summary(s.out3)
+\end{Sinput}
+\end{Schunk}
+Generate a visual summary of quantities of interest:
+\begin{center}
+\begin{Schunk}
+\begin{Sinput}
+> plot(s.out3)
+\end{Sinput}
+\end{Schunk}
+\includegraphics{vigpics/gammasurvey-ReplicatePlot}
+\end{center}
+
+
+\end{enumerate}
+
+\subsubsection{Model}
+
+\begin{itemize}
+\item The Gamma distribution with scale parameter $\alpha$ has a
+\emph{stochastic component}:
+\begin{eqnarray*}
+Y &\sim& \textrm{Gamma}(y_i \mid \lambda_i, \alpha) \\
+f(y)  &=& \frac{1}{\alpha^{\lambda_i} \, \Gamma \lambda_i} \, y_i^{\lambda_i
+  - 1} \exp -\left\{ \frac{y_i}{\alpha} \right\}
+\end{eqnarray*}
+for $\alpha, \lambda_i, y_i > 0$.  \\
+
+\item The \emph{systematic component} is given by
+\begin{equation*}
+  \lambda_i = \frac{1}{x_i \beta}
+\end{equation*}
+\end{itemize}
+
+\subsubsection{Variance}
+
+When replicate weights are not used, the variance of the
+coefficients is estimated as
+\[
+\hat{\boldsymbol{\Sigma}} \left[
+ \sum_{i=1}^n
+\frac{(1-\pi_i)}{\pi_i^2}
+(\mathbf{X}_i(Y_i-\mu_i))^\prime(\mathbf{X}_i(Y_i-\mu_i)) + 2
+\sum_{i=1}^n \sum_{j=i+1}^n \frac{(\pi_{ij} - \pi_i\pi_j)}{\pi_i
+\pi_j \pi_{ij}}(\mathbf{X}_i(Y_i-\mu_i))^\prime
+(\mathbf{X}_j(Y_j-\mu_j)) \right] \hat{\boldsymbol{\Sigma}}
+\]
+where ${\pi_i}$ is the probability of case $i$ being sampled,
+$\mathbf{X}_i$ is a vector of the values of the explanatory
+variables for case $i$, $Y_i$ is value of the dependent variable for
+case $i$, $\hat{\mu}_i$ is the predicted value of the dependent
+variable for case $i$ based on the linear model estimates, and
+$\hat{\boldsymbol{\Sigma}}$ is the conventional variance-covariance
+matrix in a parametric glm. This statistic is derived from the
+method for estimating the variance of sums described in \cite{Bin83}
+and the Horvitz-Thompson estimator of the variance of a sum
+described in \cite{HorTho52}.
+
+When replicate weights are used, the model is re-estimated for each
+set of replicate weights, and the variance of each parameter is
+estimated by summing the squared deviations of the replicates from
+their mean.
+
+\subsubsection{Quantities of Interest}
+
+\begin{itemize}
+\item The expected values ({\tt qi\$ev}) are simulations of the mean
+  of the stochastic component given draws of $\alpha$ and
+  $\beta$ from their posteriors:  $$E(Y) = \alpha \lambda_i.$$  
+\item The predicted values ({\tt qi\$pr}) are draws from the gamma
+  distribution for each given set of parameters $(\alpha, \lambda_i)$.
+\item If {\tt x1} is specified, {\tt sim()} also returns the
+  differences in the expected values ({\tt qi\$fd}), $$E(Y \mid x_1) -
+  E(Y \mid x)$$.
+
+\item In conditional prediction models, the average expected treatment
+  effect ({\tt att.ev}) for the treatment group is 
+    \begin{equation*} \frac{1}{\sum_{i=1}^n t_i}\sum_{i:t_i=1}^n \left\{ Y_i(t_i=1) -
+      E[Y_i(t_i=0)] \right\},
+    \end{equation*} 
+    where $t_i$ is a binary explanatory variable defining the treatment
+    ($t_i=1$) and control ($t_i=0$) groups.  Variation in the
+    simulations are due to uncertainty in simulating $E[Y_i(t_i=0)]$,
+    the counterfactual expected value of $Y_i$ for observations in the
+    treatment group, under the assumption that everything stays the
+    same except that the treatment indicator is switched to $t_i=0$.
+
+\item In conditional prediction models, the average predicted treatment
+  effect ({\tt att.pr}) for the treatment group is 
+    \begin{equation*} \frac{1}{\sum_{i=1}^n t_i}\sum_{i:t_i=1}^n \left\{ Y_i(t_i=1) -
+      \widehat{Y_i(t_i=0)} \right\},
+    \end{equation*} 
+    where $t_i$ is a binary explanatory variable defining the treatment
+    ($t_i=1$) and control ($t_i=0$) groups.  Variation in the
+    simulations are due to uncertainty in simulating
+    $\widehat{Y_i(t_i=0)}$, the counterfactual predicted value of
+    $Y_i$ for observations in the treatment group, under the
+    assumption that everything stays the same except that the
+    treatment indicator is switched to $t_i=0$.  
+
+\end{itemize}
+
+\subsubsection{Output Values}
+
+The output of each Zelig command contains useful information which you
+may view.  For example, if you run \texttt{z.out <- zelig(y \~\,
+  x, model = "gamma.survey", data)}, then you may examine the available
+information in \texttt{z.out} by using \texttt{names(z.out)},
+see the {\tt coefficients} by using {\tt z.out\$coefficients}, and
+a default summary of information through \texttt{summary(z.out)}.
+Other elements available through the {\tt \$} operator are listed
+below.
+
+\begin{itemize}
+\item From the {\tt zelig()} output object {\tt z.out}, you may
+  extract:
+   \begin{itemize}
+   \item {\tt coefficients}: parameter estimates for the explanatory
+     variables.
+   \item {\tt residuals}: the working residuals in the final iteration
+     of the IWLS fit.
+   \item {\tt fitted.values}: the vector of fitted values.
+   \item {\tt linear.predictors}: the vector of $x_{i}\beta$.
+   \item {\tt aic}: Akaike's Information Criterion (minus twice the
+     maximized log-likelihood plus twice the number of coefficients).
+   \item {\tt df.residual}: the residual degrees of freedom.
+   \item {\tt df.null}: the residual degrees of freedom for the null
+     model.
+   \item {\tt zelig.data}: the input data frame if {\tt save.data = TRUE}.  
+   \end{itemize}
+
+\item From {\tt summary(z.out)}, you may extract: 
+   \begin{itemize}
+   \item {\tt coefficients}: the parameter estimates with their
+     associated standard errors, $p$-values, and $t$-statistics.
+   \item{\tt cov.scaled}: a $k \times k$ matrix of scaled covariances.
+   \item{\tt cov.unscaled}: a $k \times k$ matrix of unscaled
+     covariances.  
+   \end{itemize}
+
+\item From the {\tt sim()} output object {\tt s.out}, you may extract
+  quantities of interest arranged as matrices indexed by simulation
+  $\times$ {\tt x}-observation (for more than one {\tt x}-observation).
+  Available quantities are:
+
+   \begin{itemize}
+   \item {\tt qi\$ev}: the simulated expected values for the specified
+     values of {\tt x}.
+   \item {\tt qi\$pr}: the simulated predicted values drawn from a
+     distribution defined by $(\alpha, \lambda_i)$.
+   \item {\tt qi\$fd}: the simulated first difference in the expected
+     values for the specified values in {\tt x} and {\tt x1}.
+   \item {\tt qi\$att.ev}: the simulated average expected treatment
+     effect for the treated from conditional prediction models.  
+   \item {\tt qi\$att.pr}: the simulated average predicted treatment
+     effect for the treated from conditional prediction models.  
+   \end{itemize}
+\end{itemize}
+
+When users estimate {\tt gamma.survey} models with replicate weights in {\tt Zelig}, an 
+object called {\tt .survey.prob.weights} is created in the global environment.  
+{\tt Zelig} will over-write any existing object with that name, and users 
+are therefore advised to re-name any object called {\tt .survey.prob.weights} before using {\tt gamma.survey} models in {\tt Zelig}.
+
+\subsection*{How to Cite the Gamma Model}
+\bibentry{ImaLauKin-gamma.survey11}
+
+\subsection*{How to Cite the Zelig Software Package}
+\CiteZelig
+
+\subsection* {See also}
+ 
+ Survey-weighted linear models and the sample data used in the
+ examples above are a part of the {\tt survey} package by Thomas
+ Lumley. Users may wish to refer to the help files for the three
+ functions that Zelig draws upon when estimating survey-weighted
+ models, namely, {\tt help(svyglm)}, {\tt help(svydesign)}, and {\tt
+ help(svrepdesign)}.  The Gamma model is part of the stats package
+ by \citet{VenRip02}. Advanced users may wish to refer to
+ \texttt{help(glm)} and \texttt{help(family)}, as well as
+ \cite{McCNel89}.
+  
+
+
+
+  

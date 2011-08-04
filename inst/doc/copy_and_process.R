@@ -8,6 +8,7 @@ conf <- ifelse(is.na(args[2]), "order.conf", args[2])
 
 # get models and packages
 models <- list.zelig.models()
+
 packages <- list.zelig.dependent.packages()
 packages <- c("Zelig", packages)
 
